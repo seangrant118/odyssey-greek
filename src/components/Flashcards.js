@@ -3,12 +3,14 @@ import THE from "../grammer/DefiniteArticle";
 import IAm from '../grammer/IAm';
 import FlashcardsDeck from './FlashcardsDeck';
 import GenerateFlashcards from "./GenerateFlashcards";
+import FlashcardModal from "./FlashcardModal";
 
 class Flashcards extends React.Component {
   state = {
     topic: "Definite Article",
     selectedDeck: THE,
-    selectedCard: undefined
+    selectedCard: undefined,
+    hideDefinition: true
   };
   onTopicChange = e => {
     if (e.target.value === "Definite Article") {
@@ -26,7 +28,16 @@ class Flashcards extends React.Component {
   handleCard = () => {
     const random = Math.floor(Math.random() * this.state.selectedDeck.length)
     const selectedCard = this.state.selectedDeck[random]
-    this.setState(() => ({selectedCard}))
+    this.setState(() => ({selectedCard: [selectedCard.word, selectedCard.person, selectedCard.case, selectedCard.gender]}))
+  };
+  handleCloseModal = () => {
+    this.setState(() => ({
+      selectedCard: undefined,
+      hideDefinition: true
+    }))
+  };
+  showDetails = () => {
+    this.setState(() => ({hideDefinition: false}))
   }
   render() {
     return (
@@ -37,6 +48,11 @@ class Flashcards extends React.Component {
         />
         <GenerateFlashcards
           handleCard={this.handleCard}
+        />
+        <FlashcardModal 
+          selectedCard={this.state.selectedCard}
+          handleCloseModal={this.handleCloseModal}
+          showDetails={this.showDetails}
         />
       </div>
     );
