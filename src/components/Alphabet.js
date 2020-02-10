@@ -1,8 +1,9 @@
 import React from "react";
+import './styles/Alphabet.css'
 
 const Alphabet = () => (
-  <div>
-    <table>
+  <div className='table-div'>
+    <table className='table'>
       <tr>
         <th>Name</th>
         <th>Upper Case</th>
