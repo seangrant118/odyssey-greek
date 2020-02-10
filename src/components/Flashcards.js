@@ -32,6 +32,7 @@ class Flashcards extends React.Component {
         topic: "I Am",
         selectedDeck: IAm 
       }));
+      this.updateCard();
     }
   };
   updateCard = () => {
