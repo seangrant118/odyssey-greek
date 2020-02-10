@@ -25,14 +25,15 @@ class Flashcards extends React.Component {
     if (e.target.value === "Definite Article") {
       this.setState(() => ({ 
         topic: "Definite Article",
-        selectedDeck: THE
-    }));
+        selectedDeck: THE,
+        currentCard: this.getRandomCard(THE)
+      }));
     } else if (e.target.value === "I Am") {
       this.setState(() => ({ 
         topic: "I Am",
-        selectedDeck: IAm 
+        selectedDeck: IAm,
+        currentCard: this.getRandomCard(IAm)
       }));
-      this.updateCard();
     }
   };
   updateCard = () => {
