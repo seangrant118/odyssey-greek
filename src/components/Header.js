@@ -18,7 +18,7 @@ const Header = () => (
     <NavLink 
       className='header-links' 
       to="/flashcards">
-        flashcards
+        Flashcards
     </NavLink>
   </header>
 )

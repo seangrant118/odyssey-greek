@@ -18,3 +18,8 @@
   margin: 0 1.2rem;
   text-decoration: none;
 }
+
+.header-links:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+}
