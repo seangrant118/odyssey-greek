@@ -2,16 +2,25 @@ import React from "react";
 import THE from "../grammer/DefiniteArticle";
 import IAm from '../grammer/IAm';
 import FlashcardsDeck from './FlashcardsDeck';
-import GenerateFlashcards from "./GenerateFlashcards";
-import FlashcardModal from "./FlashcardModal";
+import Card from './Card';
+import DrawCardButton from './DrawCardButton';
 
 class Flashcards extends React.Component {
   state = {
     topic: "Definite Article",
     selectedDeck: THE,
-    selectedCard: undefined,
-    hideDefinition: true
+    currentCard: {}
   };
+  componentDidMount = () => {
+    const currentCards = this.state.selectedDeck
+    this.setState(() => ({
+      currentCard: this.getRandomCard(currentCards)
+    }))
+  }
+  getRandomCard = (currentCards) => {
+    const card = currentCards[Math.floor(Math.random() * currentCards.length)];
+    return card;
+  }
   onTopicChange = e => {
     if (e.target.value === "Definite Article") {
       this.setState(() => ({ 
@@ -25,19 +34,11 @@ class Flashcards extends React.Component {
       }));
     }
   };
-  handleCard = () => {
-    const random = Math.floor(Math.random() * this.state.selectedDeck.length)
-    const selectedCard = this.state.selectedDeck[random]
-    this.setState(() => ({selectedCard: [selectedCard.word, selectedCard.person, selectedCard.case, selectedCard.gender]}))
-  };
-  handleCloseModal = () => {
+  updateCard = () => {
+    const currentCards = this.state.selectedDeck
     this.setState(() => ({
-      selectedCard: undefined,
-      hideDefinition: true
+      currentCard: this.getRandomCard(currentCards)
     }))
-  };
-  showDetails = () => {
-    this.setState(() => ({hideDefinition: false}))
   }
   render() {
     return (
@@ -46,14 +47,11 @@ class Flashcards extends React.Component {
           topic={this.state.topic} 
           onTopicChange={this.onTopicChange}
         />
-        <GenerateFlashcards
-          handleCard={this.handleCard}
+        <Card 
+          front={this.state.currentCard.front} 
+          back={this.state.currentCard.back}
         />
-        <FlashcardModal 
-          selectedCard={this.state.selectedCard}
-          handleCloseModal={this.handleCloseModal}
-          showDetails={this.showDetails}
-        />
+        <DrawCardButton drawCard={this.updateCard} />
       </div>
     );
   }

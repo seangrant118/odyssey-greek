@@ -15,7 +15,6 @@ const AppRouter = () => (
         <Route path="/flashcards" component={Flashcards} />
       </Switch>
     </div>
-
   </BrowserRouter>
 );
 
