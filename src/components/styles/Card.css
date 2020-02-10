@@ -18,7 +18,7 @@
   transition: all 0.4s ease-in-out;
 }
 
-.card:hover {
+.card:active {
   transform: rotateY(180deg);
   transition: all 0.4s ease-in-out;
 }
