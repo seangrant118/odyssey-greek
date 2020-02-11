@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Header from '../components/Header'
-import HomePage from '../components/HomePage'
-import Alphabet from '../components/Alphabet';
+import Header from "../components/Header";
+import HomePage from "../components/HomePage";
+import Alphabet from "../components/Alphabet";
 import Flashcards from "../components/Flashcards";
 
 const AppRouter = () => (
