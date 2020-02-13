@@ -1,7 +1,7 @@
 const IAm = [
   {
     id: 1,
-    front: "είμί",
+    front: "εἰμί",
     back: ["Definiton: I Am", "Person: 1st", "Number: (s.)"]
   },
   {
