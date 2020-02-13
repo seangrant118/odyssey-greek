@@ -8,7 +8,7 @@ const FlashcardsDeck = props => (
       onChange={props.onTopicChange}
       className="deck-select"
     >
-      <option value="Definite Article">The Definite Article</option>
+      <option value="Definite Article">Definite Article</option>
       <option value="I Am">I Am</option>
     </select>
   </div>
