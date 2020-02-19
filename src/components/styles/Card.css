@@ -47,8 +47,8 @@
   max-width: 90%;
   text-align: center;
   justify-content: center;
+  -webkit-transform: translateY(180deg);
   transform: rotateY(180deg);
-  transition: all 0.4s ease-in-out;
 }
 
 .front {
