@@ -1,3 +1,9 @@
+To Do 2/19/20
+-style flashcard component
+-web responsiveness
+-deploy
+-test on phone
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

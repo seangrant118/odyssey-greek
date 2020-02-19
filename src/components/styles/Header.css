@@ -1,9 +1,10 @@
 .header {
-  background: #A5AFD7;
+  background: #a5afd7;
   color: white;
   margin-bottom: 1.6rem;
   margin-top: 0;
   padding: 1.6rem 0;
+  max-width: 100%;
 }
 
 .header-title {
