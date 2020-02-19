@@ -47,6 +47,7 @@
   max-width: 90%;
   text-align: center;
   justify-content: center;
+  backface-visibility: hidden;
   -webkit-transform: translateY(180deg);
   transform: rotateY(180deg);
 }
