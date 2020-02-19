@@ -5,18 +5,19 @@
   width: 200px;
   height: 70px;
   display: block;
-  text-align:center;
-  text-decoration:none;
+  text-align: center;
+  text-decoration: none;
   color: white;
-  background: #A5AFD7;
+  background: #a5afd7;
   margin: auto;
   margin-top: 20px;
+  margin-bottom: 5px;
   border-radius: 12px;
 }
 
-.button:active{
+.button:active {
   border: none;
-  position:relative;
-  top:3px;
+  position: relative;
+  top: 3px;
   background: rgb(145, 163, 235);
 }
