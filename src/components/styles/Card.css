@@ -23,8 +23,10 @@
 }
 
 .card:active {
+  -webkit-transform: translateY(180deg);
   transform: rotateY(180deg);
   transition: all 0.4s ease-in-out;
+  will-change: transform;
 }
 
 .card .front {
