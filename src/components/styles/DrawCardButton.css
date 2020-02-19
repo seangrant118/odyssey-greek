@@ -2,7 +2,7 @@
   font-size: 1.5em;
   font-weight: 500;
   border: none;
-  width: 200px;
+  width: 100px;
   height: 70px;
   display: block;
   text-align: center;
@@ -13,6 +13,14 @@
   margin-top: 15px;
   margin-bottom: 5px;
   border-radius: 12px;
+}
+
+.button-container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
 }
 
 .button:active {

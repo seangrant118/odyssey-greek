@@ -42,6 +42,25 @@ class Flashcards extends React.Component {
       currentCard: this.getRandomCard(currentCards)
     }));
   };
+  getNextCard = currentCard => {
+    const currentCardIndex = currentCard.id;
+    const deckLength = this.state.selectedDeck.length;
+    if (currentCardIndex < deckLength) {
+      let nextCard = this.state.selectedDeck[currentCardIndex];
+      console.log(nextCard);
+      return nextCard;
+    } else {
+      let nextCard = this.state.selectedDeck[0];
+      console.log(nextCard);
+      return nextCard;
+    }
+  };
+  updateNextCard = () => {
+    const currentCard = this.state.currentCard;
+    this.setState(() => ({
+      currentCard: this.getNextCard(currentCard)
+    }));
+  };
   render() {
     return (
       <div>
@@ -53,7 +72,10 @@ class Flashcards extends React.Component {
           front={this.state.currentCard.front}
           back={this.state.currentCard.back}
         />
-        <DrawCardButton drawCard={this.updateCard} />
+        <DrawCardButton
+          drawCard={this.updateCard}
+          nextCard={this.updateNextCard}
+        />
       </div>
     );
   }

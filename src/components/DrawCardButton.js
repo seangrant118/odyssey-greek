@@ -5,11 +5,18 @@ class DrawCardButton extends React.Component {
   drawCard = () => {
     this.props.drawCard();
   };
+  nextCard = () => {
+    this.props.nextCard();
+  };
   render(props) {
     return (
       <div className="button-container noSelect">
+        <button className="button">Prev Card</button>
         <button className="button" onClick={this.drawCard}>
           Draw Card
+        </button>
+        <button className="button" onClick={this.nextCard}>
+          Next Card
         </button>
       </div>
     );

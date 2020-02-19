@@ -10,22 +10,22 @@ const IAm = [
     back: ["Definition: You are", "Person: 2nd", "Number: (s.)"]
   },
   {
-    id: 2,
+    id: 3,
     front: "ἐστί(ν)",
     back: ["Definition: He/She/It is", "Person: 3rd", "Number: (s.)"]
   },
   {
-    id: 2,
+    id: 4,
     front: "ἐσμέν",
     back: ["Definition: We are", "Person: 1st", "Number: (pl.)"]
   },
   {
-    id: 2,
+    id: 5,
     front: "ἐστέ",
     back: ["Definition: You are", "Person: 2nd", "Number: (pl.)"]
   },
   {
-    id: 2,
+    id: 6,
     front: "εἰσί(ν)",
     back: ["Definition: They are", "Person: 3rd", "Number: (pl.)"]
   }
