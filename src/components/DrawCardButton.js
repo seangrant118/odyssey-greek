@@ -7,7 +7,7 @@ class DrawCardButton extends React.Component {
   };
   render(props) {
     return (
-      <div className="button-container .noSelect">
+      <div className="button-container noSelect">
         <button className="button" onClick={this.drawCard}>
           Draw Card
         </button>
