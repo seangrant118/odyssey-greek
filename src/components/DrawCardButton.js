@@ -18,7 +18,7 @@ class DrawCardButton extends React.Component {
           Prev Card
         </button>
         <button className="button" onClick={this.drawCard}>
-          Draw Card
+          Rand Card
         </button>
         <button className="button" onClick={this.nextCard}>
           Next Card

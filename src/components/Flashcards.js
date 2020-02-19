@@ -47,11 +47,9 @@ class Flashcards extends React.Component {
     const deckLength = this.state.selectedDeck.length;
     if (currentCardIndex < deckLength) {
       let nextCard = this.state.selectedDeck[currentCardIndex];
-      console.log(nextCard);
       return nextCard;
     } else {
       let nextCard = this.state.selectedDeck[0];
-      console.log(nextCard);
       return nextCard;
     }
   };
@@ -64,22 +62,11 @@ class Flashcards extends React.Component {
   getPrevCard = currentCard => {
     const currentCardIndex = currentCard.id;
     const deckLength = this.state.selectedDeck.length;
-    // if (currentCardIndex < deckLength) {
-    //   let prevCard = this.state.selectedDeck[currentCardIndex - 2];
-    //   console.log(currentCardIndex);
-    //   return prevCard;
-    // } else if (currentCardIndex === 1) {
-    //   let prevCard = this.state.selectedDeck[deckLength];
-    //   console.log(prevCard);
-    //   return prevCard;
-    // }
     if (currentCardIndex === 1) {
       let prevCard = this.state.selectedDeck[deckLength - 1];
-      console.log(prevCard);
       return prevCard;
     } else if (currentCardIndex <= deckLength) {
       let prevCard = this.state.selectedDeck[currentCardIndex - 2];
-      console.log(prevCard);
       return prevCard;
     }
   };
