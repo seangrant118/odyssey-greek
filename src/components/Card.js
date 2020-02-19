@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/Card.css";
 
 const Card = props => (
-  <div className="card-container">
+  <div className="card-container noSelect">
     <div className="card">
       <div className="front">
         <div className="greek">{props.front}</div>
