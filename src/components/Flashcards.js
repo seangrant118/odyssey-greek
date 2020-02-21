@@ -22,15 +22,16 @@ class Flashcards extends React.Component {
     return card;
   };
   onTopicChange = e => {
-    if (e.target.value === "Definite Article") {
+    const topic = e.target.value;
+    if (topic === "Definite Article") {
       this.setState(() => ({
-        topic: "Definite Article",
+        topic: topic,
         selectedDeck: THE,
         currentCard: this.getRandomCard(THE)
       }));
-    } else if (e.target.value === "I Am") {
+    } else if (topic === "I Am") {
       this.setState(() => ({
-        topic: "I Am",
+        topic: topic,
         selectedDeck: IAm,
         currentCard: this.getRandomCard(IAm)
       }));
@@ -82,6 +83,7 @@ class Flashcards extends React.Component {
         <FlashcardsDeck
           topic={this.state.topic}
           onTopicChange={this.onTopicChange}
+          selectedDeck={this.state.selectedDeck}
         />
         <Card
           front={this.state.currentCard.front}

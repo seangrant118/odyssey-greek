@@ -1,3 +1,10 @@
+to do
+2nd declension nouns
+active verb endings
+middle/passive verb endings
+1st declension nouns
+i know
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
