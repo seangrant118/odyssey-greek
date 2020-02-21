@@ -83,7 +83,6 @@ class Flashcards extends React.Component {
         <FlashcardsDeck
           topic={this.state.topic}
           onTopicChange={this.onTopicChange}
-          selectedDeck={this.state.selectedDeck}
         />
         <Card
           front={this.state.currentCard.front}

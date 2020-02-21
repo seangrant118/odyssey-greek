@@ -9,7 +9,7 @@ const FlashcardsDeck = props => (
       className="deck-select"
     >
       <option value="Definite Article">Definite Article</option>
-      <option value="I Am">I Am</option>
+      <option value="I Am">εἰμί</option>
     </select>
   </div>
 );
