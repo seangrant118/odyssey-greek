@@ -1,16 +1,13 @@
 import React from "react";
-import THE from "../grammer/DefiniteArticle";
-import IAm from "../grammer/IAm";
-import IKnow from "../grammer/IKnow";
-import * as activeVerbs from "../grammer/ActiveVerbs";
 import FlashcardsDeck from "./FlashcardsDeck";
 import Card from "./Card";
 import DrawCardButton from "./DrawCardButton";
+import decks from "../grammer/Decks";
 
 class Flashcards extends React.Component {
   state = {
     topic: "Definite Article",
-    selectedDeck: THE,
+    selectedDeck: decks[0].cards,
     currentCard: {}
   };
   componentDidMount = () => {
@@ -18,59 +15,25 @@ class Flashcards extends React.Component {
     this.setState(() => ({
       currentCard: this.getRandomCard(currentCards)
     }));
+    console.log(decks[0].cards);
   };
   getRandomCard = currentCards => {
     const card = currentCards[Math.floor(Math.random() * currentCards.length)];
     return card;
   };
-
   onTopicChange = e => {
     const topic = e.target.value;
-    if (topic === "Definite Article") {
-      this.setState(() => ({
-        topic: topic,
-        selectedDeck: THE,
-        currentCard: this.getRandomCard(THE)
-      }));
-    } else if (topic === "I Am") {
-      this.setState(() => ({
-        topic: topic,
-        selectedDeck: IAm,
-        currentCard: this.getRandomCard(IAm)
-      }));
-    } else if (topic === "I Know") {
-      this.setState(() => ({
-        topic: topic,
-        selectedDeck: IKnow,
-        currentCard: this.getRandomCard(IKnow)
-      }));
-    } else if (topic === "UnCon") {
-      this.setState(() => ({
-        topic,
-        selectedDeck: activeVerbs.UnCon,
-        currentCard: this.getRandomCard(activeVerbs.UnCon)
-      }));
-    } else if (topic === "ACon") {
-      this.setState(() => ({
-        topic,
-        selectedDeck: activeVerbs.ACon,
-        currentCard: this.getRandomCard(activeVerbs.ACon)
-      }));
-    } else if (topic === "ECon") {
-      this.setState(() => ({
-        topic,
-        selectedDeck: activeVerbs.ECon,
-        currentCard: this.getRandomCard(activeVerbs.ECon)
-      }));
-    } else if (topic === "OCon") {
-      this.setState(() => ({
-        topic,
-        selectedDeck: activeVerbs.OCon,
-        currentCard: this.getRandomCard(activeVerbs.OCon)
-      }));
-    }
+    decks.map(deck => {
+      if (topic === deck.name) {
+        this.setState(() => ({
+          topic,
+          selectedDeck: deck.cards,
+          currentCard: this.getRandomCard(deck.cards)
+        }));
+      }
+      return true;
+    });
   };
-
   updateCard = () => {
     const currentCards = this.state.selectedDeck;
     this.setState(() => ({
@@ -117,6 +80,7 @@ class Flashcards extends React.Component {
         <FlashcardsDeck
           topic={this.state.topic}
           onTopicChange={this.onTopicChange}
+          deck={decks}
         />
         <Card
           front={this.state.currentCard.front}

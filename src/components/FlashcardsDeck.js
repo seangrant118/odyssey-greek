@@ -8,13 +8,17 @@ const FlashcardsDeck = props => (
       onChange={props.onTopicChange}
       className="deck-select"
     >
-      <option value="Definite Article">Definite Article</option>
-      <option value="I Am">εἰμί</option>
-      <option value="I Know">οἷδα</option>
-      <option value="UnCon">Uncontracted Verbs</option>
-      <option value="ACon">α Contract Verbs</option>
-      <option value="ECon">ε Contract Verbs</option>
-      <option value="OCon">ο Contract Verbs</option>
+      {props.deck ? (
+        props.deck.map(deck => {
+          return (
+            <option key={deck.id} value={deck.name}>
+              {deck.name}
+            </option>
+          );
+        })
+      ) : (
+        <option></option>
+      )}
     </select>
   </div>
 );
