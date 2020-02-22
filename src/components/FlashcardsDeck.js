@@ -10,6 +10,7 @@ const FlashcardsDeck = props => (
     >
       <option value="Definite Article">Definite Article</option>
       <option value="I Am">εἰμί</option>
+      <option value="I Know">οἷδα</option>
     </select>
   </div>
 );

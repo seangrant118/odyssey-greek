@@ -1,6 +1,7 @@
 import React from "react";
 import THE from "../grammer/DefiniteArticle";
 import IAm from "../grammer/IAm";
+import IKnow from "../grammer/IKnow";
 import FlashcardsDeck from "./FlashcardsDeck";
 import Card from "./Card";
 import DrawCardButton from "./DrawCardButton";
@@ -34,6 +35,12 @@ class Flashcards extends React.Component {
         topic: topic,
         selectedDeck: IAm,
         currentCard: this.getRandomCard(IAm)
+      }));
+    } else if (topic === "I Know") {
+      this.setState(() => ({
+        topic: topic,
+        selectedDeck: IKnow,
+        currentCard: this.getRandomCard(IKnow)
       }));
     }
   };
