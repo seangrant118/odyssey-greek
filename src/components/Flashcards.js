@@ -15,7 +15,6 @@ class Flashcards extends React.Component {
     this.setState(() => ({
       currentCard: this.getRandomCard(currentCards)
     }));
-    console.log(decks[0].cards);
   };
   getRandomCard = currentCards => {
     const card = currentCards[Math.floor(Math.random() * currentCards.length)];

@@ -1,5 +1,4 @@
 to do
-make if statement a switch case
 2nd declension nouns
 middle/passive verb endings
 1st declension nouns
