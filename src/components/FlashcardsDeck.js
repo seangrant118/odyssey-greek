@@ -12,9 +12,9 @@ const FlashcardsDeck = props => (
       <option value="I Am">εἰμί</option>
       <option value="I Know">οἷδα</option>
       <option value="UnCon">Uncontracted Verbs</option>
-      <option value="">α Contract Verbs</option>
-      <option value="">ε Contract Verbs</option>
-      <option value="">ο Contract Verbs</option>
+      <option value="ACon">α Contract Verbs</option>
+      <option value="ECon">ε Contract Verbs</option>
+      <option value="OCon">ο Contract Verbs</option>
     </select>
   </div>
 );

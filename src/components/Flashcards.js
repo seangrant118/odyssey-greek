@@ -50,6 +50,24 @@ class Flashcards extends React.Component {
         selectedDeck: activeVerbs.UnCon,
         currentCard: this.getRandomCard(activeVerbs.UnCon)
       }));
+    } else if (topic === "ACon") {
+      this.setState(() => ({
+        topic,
+        selectedDeck: activeVerbs.ACon,
+        currentCard: this.getRandomCard(activeVerbs.ACon)
+      }));
+    } else if (topic === "ECon") {
+      this.setState(() => ({
+        topic,
+        selectedDeck: activeVerbs.ECon,
+        currentCard: this.getRandomCard(activeVerbs.ECon)
+      }));
+    } else if (topic === "OCon") {
+      this.setState(() => ({
+        topic,
+        selectedDeck: activeVerbs.OCon,
+        currentCard: this.getRandomCard(activeVerbs.OCon)
+      }));
     }
   };
 

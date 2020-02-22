@@ -34,98 +34,98 @@ export const UnCon = [
 export const ACon = [
   {
     id: 1,
-    front: "",
-    back: []
+    front: "ὁρῶ",
+    back: ["I See", "First Person", "(s)"]
   },
   {
     id: 2,
-    front: "",
-    back: []
+    front: "ὁρᾷς",
+    back: ["You See", "Second Person", "(s)"]
   },
   {
     id: 3,
-    front: "",
-    back: []
+    front: "ὁρᾷ",
+    back: ["He/She/It Sees", "Third Person", "(s)"]
   },
   {
     id: 4,
-    front: "",
-    back: []
+    front: "ὁρῶμεν",
+    back: ["We See", "First Person", "(pl)"]
   },
   {
     id: 5,
-    front: "",
-    back: []
+    front: "ὁρᾶτε",
+    back: ["You See", "Second Person", "(pl)"]
   },
   {
     id: 6,
-    front: "",
-    back: []
+    front: "ὁρῶσι(ν)",
+    back: ["They See", "First Person", "(pl)"]
   }
 ];
 
 export const ECon = [
   {
     id: 1,
-    front: "",
-    back: []
+    front: "ποιῶ",
+    back: ["I Do", "First Person", "(s)"]
   },
   {
     id: 2,
-    front: "",
-    back: []
+    front: "ποιεῖς",
+    back: ["You Do", "Second Person", "(s)"]
   },
   {
     id: 3,
-    front: "",
-    back: []
+    front: "ποιεῖ",
+    back: ["He/She/It Does", "Third Person", "(s)"]
   },
   {
     id: 4,
-    front: "",
-    back: []
+    front: "ποιοῦμεν",
+    back: ["We Do", "First Person", "(pl)"]
   },
   {
     id: 5,
-    front: "",
-    back: []
+    front: "ποιεῖτε",
+    back: ["You Do", "Second Person", "(pl)"]
   },
   {
     id: 6,
-    front: "",
-    back: []
+    front: "ποιοῦσι(ν)",
+    back: ["They See", "Third Person", "(pl)"]
   }
 ];
 
 export const OCon = [
   {
     id: 1,
-    front: "",
-    back: []
+    front: "δηλῶ",
+    back: ["I Show", "First Person", "(s)"]
   },
   {
     id: 2,
-    front: "",
-    back: []
+    front: "δηλοῖς",
+    back: ["You Show", "Second Person", "(s)"]
   },
   {
     id: 3,
-    front: "",
-    back: []
+    front: "δηλοῖ",
+    back: ["He/She/It Sees", "Third Person", "(s)"]
   },
   {
     id: 4,
-    front: "",
-    back: []
+    front: "δηλοῦμεν",
+    back: ["We See", "First Person", "(pl)"]
   },
   {
     id: 5,
-    front: "",
-    back: []
+    front: "δηλοῦτε",
+    back: ["You See", "Second Person", "(pl)"]
   },
   {
     id: 6,
-    front: "",
-    back: []
+    front: "δηλοῦσι(ν)",
+    back: ["They See", "Third Person", "(pl)"]
   }
 ];
