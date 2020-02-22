@@ -2,6 +2,7 @@ import React from "react";
 import THE from "../grammer/DefiniteArticle";
 import IAm from "../grammer/IAm";
 import IKnow from "../grammer/IKnow";
+import * as activeVerbs from "../grammer/ActiveVerbs";
 import FlashcardsDeck from "./FlashcardsDeck";
 import Card from "./Card";
 import DrawCardButton from "./DrawCardButton";
@@ -22,6 +23,7 @@ class Flashcards extends React.Component {
     const card = currentCards[Math.floor(Math.random() * currentCards.length)];
     return card;
   };
+
   onTopicChange = e => {
     const topic = e.target.value;
     if (topic === "Definite Article") {
@@ -42,8 +44,15 @@ class Flashcards extends React.Component {
         selectedDeck: IKnow,
         currentCard: this.getRandomCard(IKnow)
       }));
+    } else if (topic === "UnCon") {
+      this.setState(() => ({
+        topic,
+        selectedDeck: activeVerbs.UnCon,
+        currentCard: this.getRandomCard(activeVerbs.UnCon)
+      }));
     }
   };
+
   updateCard = () => {
     const currentCards = this.state.selectedDeck;
     this.setState(() => ({

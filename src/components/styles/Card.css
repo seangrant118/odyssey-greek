@@ -66,6 +66,10 @@
   justify-content: center;
 }
 
+.greek {
+  font-size: 0.7em;
+}
+
 @media (max-width: 45rem) {
   .card-container {
     height: 49vh;

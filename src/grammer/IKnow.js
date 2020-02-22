@@ -12,7 +12,7 @@ const IKnow = [
   {
     id: 3,
     front: "οἷδε",
-    back: ["They Know", "Third Person", "(s)"]
+    back: ["He/She/it Knows", "Third Person", "(s)"]
   },
   {
     id: 4,

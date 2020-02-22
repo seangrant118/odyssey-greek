@@ -11,6 +11,10 @@ const FlashcardsDeck = props => (
       <option value="Definite Article">Definite Article</option>
       <option value="I Am">εἰμί</option>
       <option value="I Know">οἷδα</option>
+      <option value="UnCon">Uncontracted Verbs</option>
+      <option value="">α Contract Verbs</option>
+      <option value="">ε Contract Verbs</option>
+      <option value="">ο Contract Verbs</option>
     </select>
   </div>
 );
