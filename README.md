@@ -1,5 +1,4 @@
 to do
-middle/passive verb endings
 1st declension nouns
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
