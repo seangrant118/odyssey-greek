@@ -2,6 +2,10 @@ const decks = [
   {
     id: 1,
     name: "Definite Article",
+    category: {
+      id: 1,
+      name: "General"
+    },
     cards: [
       {
         id: 1,
@@ -93,6 +97,10 @@ const decks = [
   {
     id: 2,
     name: "εἰμί",
+    category: {
+      id: 1,
+      name: "General"
+    },
     cards: [
       {
         id: 1,
@@ -129,6 +137,10 @@ const decks = [
   {
     id: 3,
     name: "οἷδα",
+    category: {
+      id: 2,
+      name: "Verbs"
+    },
     cards: [
       {
         id: 1,
@@ -165,6 +177,10 @@ const decks = [
   {
     id: 4,
     name: "Uncontracted Verbs",
+    category: {
+      id: 2,
+      name: "Verbs"
+    },
     cards: [
       {
         id: 1,
@@ -201,6 +217,10 @@ const decks = [
   {
     id: 5,
     name: "α Contract Verbs",
+    category: {
+      id: 2,
+      name: "Verbs"
+    },
     cards: [
       {
         id: 1,
@@ -237,6 +257,10 @@ const decks = [
   {
     id: 6,
     name: "ε Contract Verbs",
+    category: {
+      id: 2,
+      name: "Verbs"
+    },
     cards: [
       {
         id: 1,
@@ -273,6 +297,10 @@ const decks = [
   {
     id: 7,
     name: "ο Contract Verbs",
+    category: {
+      id: 2,
+      name: "Verbs"
+    },
     cards: [
       {
         id: 1,

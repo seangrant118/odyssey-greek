@@ -7,6 +7,7 @@ import decks from "../grammer/Decks";
 class Flashcards extends React.Component {
   state = {
     topic: "Definite Article",
+    category: decks[0].category,
     selectedDeck: decks[0].cards,
     currentCard: {}
   };
@@ -77,6 +78,7 @@ class Flashcards extends React.Component {
     return (
       <div>
         <FlashcardsDeck
+          category={this.state.category}
           topic={this.state.topic}
           onTopicChange={this.onTopicChange}
           deck={decks}
