@@ -2,12 +2,15 @@ import React from "react";
 import "./styles/DrawCardButton.css";
 
 class DrawCardButton extends React.Component {
+  //draws a random card
   drawCard = () => {
     this.props.drawCard();
   };
+  //draws the next card in the deck
   nextCard = () => {
     this.props.nextCard();
   };
+  //draws the previous card in the deck
   prevCard = () => {
     this.props.prevCard();
   };

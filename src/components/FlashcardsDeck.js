@@ -2,6 +2,7 @@ import React from "react";
 import "./styles/FlashcardsDeck.css";
 
 const FlashcardsDeck = props => {
+  //returns an array with unique category options
   const categoryOptions = new Map([
     ...props.deck.map(category => [
       category.category.id,
@@ -17,7 +18,8 @@ const FlashcardsDeck = props => {
           className="deck-select"
           onChange={props.onCategoryChange}
         >
-          {props.deck ? (
+          {//writes an <option> for each unique category
+          props.deck ? (
             [...categoryOptions].map(([id, name]) => (
               <option key={id} value={name}>
                 {name}
@@ -35,7 +37,8 @@ const FlashcardsDeck = props => {
           onChange={props.onTopicChange}
           className="deck-select"
         >
-          {props.deck ? (
+          {//writes an <option> for each topic with a category that matches the current category
+          props.deck ? (
             props.deck.map(deck => {
               if (props.category === deck.category.name) {
                 return (
