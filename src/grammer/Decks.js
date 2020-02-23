@@ -209,7 +209,7 @@ const decks = [
       },
       {
         id: 6,
-        front: "βαίνοθσι(ν)",
+        front: "βαίνουσι(ν)",
         back: ["They Go", "First Person", "(pl)"]
       }
     ]
@@ -426,6 +426,166 @@ const decks = [
         id: 6,
         front: "ἔργ-οις",
         back: ["Dative", "(pl)"]
+      }
+    ]
+  },
+  {
+    id: 10,
+    name: "Uncontracted Middle",
+    category: {
+      id: 2,
+      name: "Verbs"
+    },
+    cards: [
+      {
+        id: 1,
+        front: "ἔρχ-ομαι",
+        back: ["I Go", "First Person", "(s)"]
+      },
+      {
+        id: 2,
+        front: "ἔρχ-ῃ (-ει)",
+        back: ["You Go", "Second Person", "(s)"]
+      },
+      {
+        id: 3,
+        front: "ἔρχ-εται",
+        back: ["He/She/It Goes", "Third Person", "(s)"]
+      },
+      {
+        id: 4,
+        front: "ἔρχ-όμεθα",
+        back: ["We Go", "First Person", "(pl)"]
+      },
+      {
+        id: 5,
+        front: "ἔρχ-εσθε",
+        back: ["You Go", "Second Person", "(pl)"]
+      },
+      {
+        id: 6,
+        front: "ἔρχ-ονται",
+        back: ["They Go", "Third Person", "(pl)"]
+      }
+    ]
+  },
+  {
+    id: 11,
+    name: "α Contract Middle",
+    category: {
+      id: 2,
+      name: "Verbs"
+    },
+    cards: [
+      {
+        id: 1,
+        front: "θε-ῶμαι",
+        back: ["I Watch", "First Person", "(s)"]
+      },
+      {
+        id: 2,
+        front: "θε-ᾷ",
+        back: ["You Watch", "Second Person", "(s)"]
+      },
+      {
+        id: 3,
+        front: "θε-ᾶται",
+        back: ["He/She/It Watches", "Third Person", "(s)"]
+      },
+      {
+        id: 4,
+        front: "θε-ώμετα",
+        back: ["We Watch", "First Person", "(pl)"]
+      },
+      {
+        id: 5,
+        front: "θε-ᾶστε",
+        back: ["You Watch", "Second Person", "(pl)"]
+      },
+      {
+        id: 6,
+        front: "θε-ῶωται",
+        back: ["They Watch", "Third Person", "(pl)"]
+      }
+    ]
+  },
+  {
+    id: 12,
+    name: "ε Contract Middle",
+    category: {
+      id: 2,
+      name: "Verbs"
+    },
+    cards: [
+      {
+        id: 1,
+        front: "φοβ-οῦμαι",
+        back: ["I Fear", "First Person", "(s)"]
+      },
+      {
+        id: 2,
+        front: "φοβ-ῇ",
+        back: ["You Fear", "Second Person", "(s)"]
+      },
+      {
+        id: 3,
+        front: "φοβ-εῖται",
+        back: ["He/She/It Fears", "Third Person", "(s)"]
+      },
+      {
+        id: 4,
+        front: "φοβ-ούμεθα",
+        back: ["We Fear", "First Person", "(pl)"]
+      },
+      {
+        id: 5,
+        front: "φοβ-εῖσθε",
+        back: ["You Fear", "Second Person", "(pl)"]
+      },
+      {
+        id: 6,
+        front: "φοβ-οῦνται",
+        back: ["They Fear", "Third Person", "(pl)"]
+      }
+    ]
+  },
+  {
+    id: 13,
+    name: "o Contract Middle",
+    category: {
+      id: 2,
+      name: "Verbs"
+    },
+    cards: [
+      {
+        id: 1,
+        front: "δουλ-οῦμαι",
+        back: ["I Enslave", "First Person", "(s)"]
+      },
+      {
+        id: 2,
+        front: "δουλ-οῖ",
+        back: ["You Enslave", "Second Person", "(s)"]
+      },
+      {
+        id: 3,
+        front: "δουλ-οῦται",
+        back: ["He/She/It Enslaves", "Third Person", "(s)"]
+      },
+      {
+        id: 4,
+        front: "δουλ-ούμεθα",
+        back: ["We Enslave", "First Person", "(pl)"]
+      },
+      {
+        id: 5,
+        front: "δουλ-οῦσθε",
+        back: ["You Enslave", "Second Person", "(pl)"]
+      },
+      {
+        id: 6,
+        front: "δουλ-οῦνται",
+        back: ["They Enslave", "Third Person", "(pl)"]
       }
     ]
   }
