@@ -11,7 +11,7 @@ const FlashcardsDeck = props => {
   return (
     <div className="deck-container">
       <div className="select-container">
-        <p className="small-title">Category:</p>
+        <p className="small-title noSelect">Category:</p>
         <select
           value={props.category.name}
           className="deck-select"
@@ -29,7 +29,7 @@ const FlashcardsDeck = props => {
         </select>
       </div>
       <div className="select-container">
-        <p className="small-title"> Topic: </p>
+        <p className="small-title noSelect"> Topic: </p>
         <select
           value={props.topic}
           onChange={props.onTopicChange}
