@@ -11,9 +11,9 @@ const FlashcardsDeck = props => {
   return (
     <div>
       <select
-        value={props.category}
+        value={props.category.name}
         className="deck-select"
-        onChange={() => {}}
+        onChange={props.onCategoryChange}
       >
         {props.deck ? (
           [...categoryOptions].map(([id, name]) => (
@@ -32,11 +32,14 @@ const FlashcardsDeck = props => {
       >
         {props.deck ? (
           props.deck.map(deck => {
-            return (
-              <option key={deck.id} value={deck.name}>
-                {deck.name}
-              </option>
-            );
+            if (props.category === deck.category.name) {
+              return (
+                <option key={deck.id} value={deck.name}>
+                  {deck.name}
+                </option>
+              );
+            }
+            return true;
           })
         ) : (
           <option></option>

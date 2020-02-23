@@ -7,7 +7,7 @@ import decks from "../grammer/Decks";
 class Flashcards extends React.Component {
   state = {
     topic: "Definite Article",
-    category: decks[0].category,
+    category: decks[0].category.name,
     selectedDeck: decks[0].cards,
     currentCard: {}
   };
@@ -74,6 +74,19 @@ class Flashcards extends React.Component {
       currentCard: this.getPrevCard(currentCard)
     }));
   };
+  onCategoryChange = e => {
+    const category = e.target.value;
+    const newCard = decks.find(el => el.category.name === category);
+    const syntheticEvent = {
+      target: {
+        value: newCard.name
+      }
+    };
+    this.setState(() => ({
+      category
+    }));
+    this.onTopicChange(syntheticEvent);
+  };
   render() {
     return (
       <div>
@@ -81,6 +94,7 @@ class Flashcards extends React.Component {
           category={this.state.category}
           topic={this.state.topic}
           onTopicChange={this.onTopicChange}
+          onCategoryChange={this.onCategoryChange}
           deck={decks}
         />
         <Card

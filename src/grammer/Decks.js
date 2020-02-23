@@ -138,8 +138,8 @@ const decks = [
     id: 3,
     name: "οἷδα",
     category: {
-      id: 2,
-      name: "Verbs"
+      id: 1,
+      name: "General"
     },
     cards: [
       {
