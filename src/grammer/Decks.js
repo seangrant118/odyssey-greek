@@ -588,6 +588,206 @@ const decks = [
         back: ["They Enslave", "Third Person", "(pl)"]
       }
     ]
+  },
+  {
+    id: 14,
+    name: "1st Declension A",
+    category: {
+      id: 3,
+      name: "Nouns"
+    },
+    cards: [
+      {
+        id: 1,
+        front: "βο-ή",
+        back: ["Nominative", "(s)"]
+      },
+      {
+        id: 2,
+        front: "βο-ήν",
+        back: ["Accusative", "(s)"]
+      },
+      {
+        id: 3,
+        front: "βο-ῆς",
+        back: ["Genitive", "(s)"]
+      },
+      {
+        id: 4,
+        front: "βο-ῇ",
+        back: ["Dative", "(s)"]
+      },
+      {
+        id: 5,
+        front: "βο-αί",
+        back: ["Nominative", "(pl)"]
+      },
+      {
+        id: 6,
+        front: "βο-ᾱς",
+        back: ["Accusative", "(pl)"]
+      },
+      {
+        id: 7,
+        front: "βο-ῶν",
+        back: ["Genitive", "(pl)"]
+      },
+      {
+        id: 8,
+        front: "βο-αῖς",
+        back: ["Dative", "(pl)"]
+      }
+    ]
+  },
+  {
+    id: 15,
+    name: "1st Declension B",
+    category: {
+      id: 3,
+      name: "Nouns"
+    },
+    cards: [
+      {
+        id: 1,
+        front: "ἀπορί-ᾱ",
+        back: ["Nominative", "(s)"]
+      },
+      {
+        id: 2,
+        front: "ἀπορί-ᾱν",
+        back: ["Accusative", "(s)"]
+      },
+      {
+        id: 3,
+        front: "ἀπορί-ᾱς",
+        back: ["Genitive (s)", "or", "Accusative (pl)"]
+      },
+      {
+        id: 4,
+        front: "ἀπορί-ᾱι",
+        back: ["Dative", "(s)"]
+      },
+      {
+        id: 5,
+        front: "ἀπορί-αι",
+        back: ["Nominative", "(pl)"]
+      },
+      {
+        id: 6,
+        front: "ἀπορί-ῶν",
+        back: ["Genitive", "(pl)"]
+      },
+      {
+        id: 7,
+        front: "ἀπορί-αις",
+        back: ["Dative", "(pl)"]
+      }
+    ]
+  },
+  {
+    id: 16,
+    name: "1st Declension C",
+    category: {
+      id: 3,
+      name: "Nouns"
+    },
+    cards: [
+      {
+        id: 1,
+        front: "θάλαττ-ᾰ",
+        back: ["Nominative", "(s)"]
+      },
+      {
+        id: 2,
+        front: "θάλαττ-ᾰν",
+        back: ["Accusative", "(s)"]
+      },
+      {
+        id: 3,
+        front: "θαλάττ-ης",
+        back: ["Genitive", "(s)"]
+      },
+      {
+        id: 4,
+        front: "θαλάττ-ῃ",
+        back: ["Dative", "(s)"]
+      },
+      {
+        id: 5,
+        front: "θάλαττ-αι",
+        back: ["Nominative", "(pl)"]
+      },
+      {
+        id: 6,
+        front: "θαλάττ-ᾱς",
+        back: ["Accusative", "(pl)"]
+      },
+      {
+        id: 7,
+        front: "θαλαττ-ῶν",
+        back: ["Genitive", "(pl)"]
+      },
+      {
+        id: 8,
+        front: "θαλάττ-αις",
+        back: ["Dative", "(pl)"]
+      }
+    ]
+  },
+  {
+    id: 17,
+    name: "1st Declension D",
+    category: {
+      id: 3,
+      name: "Nouns"
+    },
+    cards: [
+      {
+        id: 1,
+        front: "ναύτη-ς",
+        back: ["Nominative", "(s)"]
+      },
+      {
+        id: 2,
+        front: "ναύτ-ην",
+        back: ["Accusative", "(s)"]
+      },
+      {
+        id: 3,
+        front: "ναύτ-ου",
+        back: ["Genitive", "(s)"]
+      },
+      {
+        id: 4,
+        front: "ναύτ-ῃ",
+        back: ["Dative", "(s)"]
+      },
+      {
+        id: 5,
+        front: "ναῦτ-ᾰ",
+        back: ["Vocative", "(s)"]
+      },
+      {
+        id: 6,
+        front: "ναῦτ-αι",
+        back: ["Nominative", "(pl)"]
+      },
+      {
+        id: 7,
+        front: "ναύτ-ᾱς",
+        back: ["Accusative", "(pl)"]
+      },
+      {
+        id: 8,
+        front: "ναυτ-ῶν",
+        back: ["Genitive", "(pl)"]
+      },
+      {
+        id: 9,
+        front: "ναύτ-αις",
+        back: ["Dative", "(pl)"]
+      }
+    ]
   }
 ];
 
