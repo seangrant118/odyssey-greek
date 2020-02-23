@@ -3,7 +3,6 @@ import FlashcardsDeck from "./FlashcardsDeck";
 import Card from "./Card";
 import DrawCardButton from "./DrawCardButton";
 import decks from "../grammer/Decks";
-import "./styles/Flashcards.css";
 
 class Flashcards extends React.Component {
   state = {
