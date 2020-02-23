@@ -136,7 +136,7 @@ const decks = [
   },
   {
     id: 3,
-    name: "οἷδα",
+    name: "οἶδα",
     category: {
       id: 1,
       name: "General"
@@ -144,32 +144,32 @@ const decks = [
     cards: [
       {
         id: 1,
-        front: "οἷδα",
+        front: "οἶδα",
         back: ["I Know", "First Person", "(s)"]
       },
       {
         id: 2,
-        front: "οἷσθα",
+        front: "οἶσθα",
         back: ["You Know", "Second Person", "(s)"]
       },
       {
         id: 3,
-        front: "οἷδε",
+        front: "οἶδε",
         back: ["He/She/it Knows", "Third Person", "(s)"]
       },
       {
         id: 4,
-        front: "ἵσμεν",
+        front: "ἴσμεν",
         back: ["We Know", "First Person", "(pl)"]
       },
       {
         id: 5,
-        front: "ἵστε",
+        front: "ἴστε",
         back: ["You Know", "Second Person", "(pl)"]
       },
       {
         id: 6,
-        front: "ἵσασι(ν)",
+        front: "ἴσασι(ν)",
         back: ["They Know", "Third Person", "(pl)"]
       }
     ]
