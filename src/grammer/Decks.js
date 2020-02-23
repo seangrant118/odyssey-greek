@@ -333,6 +333,61 @@ const decks = [
         back: ["They See", "Third Person", "(pl)"]
       }
     ]
+  },
+  {
+    id: 8,
+    name: "2nd Declension A",
+    category: {
+      id: 3,
+      name: "Nouns"
+    },
+    cards: [
+      {
+        id: 1,
+        front: "ἄνθρωπος",
+        back: ["Nominative", "(s)"]
+      },
+      {
+        id: 2,
+        front: "ἄνθρωπον",
+        back: ["Accusative", "(s)"]
+      },
+      {
+        id: 3,
+        front: "ἀνθρωπου",
+        back: ["Genitive", "(s)"]
+      },
+      {
+        id: 4,
+        front: "ἀνθρωπῳ",
+        back: ["Dative", "(s)"]
+      },
+      {
+        id: 5,
+        front: "ὦ ἄνθρωπε",
+        back: ["Vocative", "(s)"]
+      },
+      {
+        id: 6,
+        front: "ἄνθρωποι",
+        back: ["Nominative", "(pl)"]
+      },
+      {
+        id: 7,
+        front: "ἀνθρώπους",
+        back: ["Accusative", "(pl)"]
+      },
+      {
+        id: 8,
+        front: "ἀνθρώπων",
+        back: ["Genitive", "(pl)"]
+      },
+      {
+        id: 9,
+        front: "ἀνθρώποις",
+        back: ["Dative", "(pl)"]
+      }
+    ]
   }
 ];
 
