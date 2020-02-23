@@ -388,6 +388,46 @@ const decks = [
         back: ["Dative", "(pl)"]
       }
     ]
+  },
+  {
+    id: 9,
+    name: "2nd Declension B",
+    category: {
+      id: 3,
+      name: "Nouns"
+    },
+    cards: [
+      {
+        id: 1,
+        front: "ἔργ-ον",
+        back: ["Nominative or Accusative", "(s)"]
+      },
+      {
+        id: 2,
+        front: "ἔργ-ου",
+        back: ["Genitive", "(s)"]
+      },
+      {
+        id: 3,
+        front: "ἔργ-ῳ",
+        back: ["Dative", "(s)"]
+      },
+      {
+        id: 4,
+        front: "ἔργ-α",
+        back: ["Nominative or Accusative", "(pl)"]
+      },
+      {
+        id: 5,
+        front: "ἔργ-ων",
+        back: ["Genitive", "(pl)"]
+      },
+      {
+        id: 6,
+        front: "ἔργ-οις",
+        back: ["Dative", "(pl)"]
+      }
+    ]
   }
 ];
 
