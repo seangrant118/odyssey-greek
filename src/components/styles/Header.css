@@ -24,3 +24,9 @@
   color: whitesmoke;
   text-decoration: underline;
 }
+
+@media (max-width: 45rem) {
+  .header {
+    margin-bottom: 0;
+  }
+}
