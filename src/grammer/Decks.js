@@ -504,7 +504,7 @@ const decks = [
       },
       {
         id: 6,
-        front: "θε-ῶωται",
+        front: "θε-ῶνται",
         back: ["They Watch", "Third Person", "(pl)"]
       }
     ]
