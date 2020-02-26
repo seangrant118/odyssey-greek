@@ -893,6 +893,111 @@ const decks = [
         back: ["O (addressing someone)"]
       }
     ]
+  },
+  {
+    id: 19,
+    name: "1C-D",
+    category: {
+      id: 4,
+      name: "Text Vocab"
+    },
+    cards: [
+      {
+        id: 1,
+        front: "ἀκούω",
+        back: ["hear, listen"]
+      },
+      {
+        id: 2,
+        front: "ἀληθῆ",
+        back: ["the truth"]
+      },
+      {
+        id: 3,
+        front: "ἀλλά",
+        back: ["but, alternatively"]
+      },
+      {
+        id: 4,
+        front: "βλέπω",
+        back: ["look (at)"]
+      },
+      {
+        id: 5,
+        front: "γάρ",
+        back: ["because, for"]
+      },
+      {
+        id: 6,
+        front: "διώκω",
+        back: ["chase, pursue"]
+      },
+      {
+        id: 7,
+        front: "ἔγωγε",
+        back: ["I At least/at any rate"]
+      },
+      {
+        id: 8,
+        front: "εἰσβαινω",
+        back: ["enter, board"]
+      },
+      {
+        id: 9,
+        front: "ἡεμεῖς",
+        back: ["we"]
+      },
+      {
+        id: 10,
+        front: "καταβαίνω",
+        back: ["go/come down"]
+      },
+      {
+        id: 11,
+        front: "μένω (μεινα-)",
+        back: ["remain, wait for"]
+      },
+      {
+        id: 12,
+        front: "μή",
+        back: ["don't"]
+      },
+      {
+        id: 13,
+        front: "ού, ούκ, ούχ",
+        back: ["no, not"]
+      },
+      {
+        id: 14,
+        front: "οὐδέν",
+        back: ["nothing"]
+      },
+      {
+        id: 15,
+        front: "οὖν",
+        back: ["so, then, really, therefore"]
+      },
+      {
+        id: 16,
+        front: "τί",
+        back: ["what?"]
+      },
+      {
+        id: 17,
+        front: "ὖμεῖς",
+        back: ["you (pl)"]
+      },
+      {
+        id: 18,
+        front: "φεύγω",
+        back: ["flee, run away"]
+      },
+      {
+        id: 19,
+        front: "ὡς",
+        back: ["how"]
+      }
+    ]
   }
 ];
 
