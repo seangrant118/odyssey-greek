@@ -108,10 +108,7 @@ class Flashcards extends React.Component {
           onCategoryChange={this.onCategoryChange}
           deck={decks}
         />
-        <Card
-          front={this.state.currentCard.front}
-          back={this.state.currentCard.back}
-        />
+        <Card card={this.state.currentCard} deck={this.state.selectedDeck} />
         <DrawCardButton
           drawCard={this.updateCard}
           nextCard={this.updateNextCard}

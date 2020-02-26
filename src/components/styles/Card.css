@@ -70,6 +70,12 @@
   font-size: 0.7em;
 }
 
+.count {
+  font-size: 0.15em;
+  transform: translateY(-100%);
+  display: inline-block;
+}
+
 @media (max-width: 45rem) {
   .card-container {
     height: 49vh;

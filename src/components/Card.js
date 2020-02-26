@@ -8,15 +8,18 @@ const Card = props => (
         <div className="greek">
           {
             //writes the word on the front of the card
-            props.front
+            props.card.front
           }
+        </div>
+        <div className="count">
+          {props.card.id}/{props.deck.length}
         </div>
       </div>
       <div className="back">
         <div className="definition">
-          {//maps the back: [arr] to the back of the card
+          {// maps the back: [arr] to the back of the card
           props.back ? (
-            props.back.map(item => <div key={item}>{item}</div>)
+            props.card.back.map(item => <div key={item}>{item}</div>)
           ) : (
             <p>Select</p>
           )}
