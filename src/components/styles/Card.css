@@ -72,8 +72,8 @@
 
 .count {
   font-size: 0.15em;
-  transform: translateY(-100%);
   display: inline-block;
+  backface-visibility: hidden;
 }
 
 @media (max-width: 45rem) {

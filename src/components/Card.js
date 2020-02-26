@@ -18,7 +18,7 @@ const Card = props => (
       <div className="back">
         <div className="definition">
           {// maps the back: [arr] to the back of the card
-          props.back ? (
+          props.card.back ? (
             props.card.back.map(item => <div key={item}>{item}</div>)
           ) : (
             <p>Select</p>
