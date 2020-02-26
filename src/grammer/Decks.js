@@ -788,6 +788,111 @@ const decks = [
         back: ["Dative", "(pl)"]
       }
     ]
+  },
+  {
+    id: 18,
+    name: "1A-B",
+    category: {
+      id: 4,
+      name: "Text Vocab"
+    },
+    cards: [
+      {
+        id: 1,
+        front: "ἀκρόπολις, ἡ",
+        back: ["acropolis"]
+      },
+      {
+        id: 2,
+        front: "ἆρα",
+        back: ["indicates a question"]
+      },
+      {
+        id: 3,
+        front: "βαίνω",
+        back: ["I come, go, walk"]
+      },
+      {
+        id: 4,
+        front: "γῆ, ἡ",
+        back: ["land"]
+      },
+      {
+        id: 5,
+        front: "δέ",
+        back: ["and, but"]
+      },
+      {
+        id: 6,
+        front: "δεῦρο",
+        back: ["over here"]
+      },
+      {
+        id: 7,
+        front: "ἐγώ",
+        back: ["I (sometimes emphatic)"]
+      },
+      {
+        id: 8,
+        front: "ἔπειτα",
+        back: ["then, next"]
+      },
+      {
+        id: 9,
+        front: "καί",
+        back: ["and, also"]
+      },
+      {
+        id: 10,
+        front: "καλ-ός ή όν",
+        back: ["beautiful, fine, good"]
+      },
+      {
+        id: 11,
+        front: "ναύτης, ὁ",
+        back: ["sailor"]
+      },
+      {
+        id: 12,
+        front: "νεώριον, τό",
+        back: ["dockyard"]
+      },
+      {
+        id: 13,
+        front: "Παρθενών, ὁ",
+        back: ["the Parthenon"]
+      },
+      {
+        id: 14,
+        front: "πλοῖον, τό",
+        back: ["vessel, ship"]
+      },
+      {
+        id: 15,
+        front: "ῥαψῳδός, ὁ",
+        back: ["rhapsode"]
+      },
+      {
+        id: 16,
+        front: "σύ",
+        back: ["you (s)"]
+      },
+      {
+        id: 17,
+        front: "τε...καί...",
+        back: ["A and B, both A and B"]
+      },
+      {
+        id: 18,
+        front: "τίς",
+        back: ["who? what?"]
+      },
+      {
+        id: 19,
+        front: "ὦ",
+        back: ["O (addressing someone)"]
+      }
+    ]
   }
 ];
 
