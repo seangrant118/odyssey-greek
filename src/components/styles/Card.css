@@ -73,7 +73,6 @@
 .count {
   font-size: 0.15em;
   display: inline-block;
-  backface-visibility: hidden;
 }
 
 @media (max-width: 45rem) {
