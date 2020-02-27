@@ -35,6 +35,7 @@
   max-width: 100%;
   justify-content: center;
   -webkit-transform: rotateY(0deg);
+  transform: rotateY(0);
   backface-visibility: hidden;
   position: absolute;
   overflow: hidden;
