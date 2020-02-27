@@ -11,8 +11,10 @@ const Card = props => (
             props.card.front
           }
         </div>
-        <div className="count">
-          {props.card.id}/{props.deck.length}
+        <div className="count-container">
+          <div className="count">
+            {props.card.id}/{props.deck.length}
+          </div>
         </div>
       </div>
       <div className="back">

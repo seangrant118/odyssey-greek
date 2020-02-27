@@ -34,6 +34,7 @@
   width: 398px;
   max-width: 100%;
   justify-content: center;
+  -webkit-transform: rotateY(0deg);
   backface-visibility: hidden;
   position: absolute;
   overflow: hidden;
@@ -70,10 +71,23 @@
   font-size: 0.7em;
 }
 
+.count-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .count {
   font-size: 0.15em;
   display: inline-block;
+  margin: auto;
 }
+/* .count-container .count {
+  backface-visibility: hidden;
+} */
 
 @media (max-width: 45rem) {
   .card-container {
