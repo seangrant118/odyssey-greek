@@ -70,6 +70,8 @@
   .deck-container {
     width: 100vw;
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .small-title {
     margin-right: 0;
