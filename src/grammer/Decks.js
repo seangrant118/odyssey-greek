@@ -1078,6 +1078,121 @@ const decks = [
         back: ["yourself (s)"]
       }
     ]
+  },
+  {
+    id: 21,
+    name: "1H-J",
+    category: {
+      id: 4,
+      name: "Text Vocab"
+    },
+    cards: [
+      {
+        id: 1,
+        front: "ἀεί",
+        back: ["always"]
+      },
+      {
+        id: 2,
+        front: "ἄριστος η ον",
+        back: ["best; very good"]
+      },
+      {
+        id: 3,
+        front: "γιγνώσκω",
+        back: ["know; think; resolve"]
+      },
+      {
+        id: 4,
+        front: "δῆλος η ον",
+        back: ["clear; obvious"]
+      },
+      {
+        id: 5,
+        front: "εἰμί",
+        back: ["I am (verb: to be)"]
+      },
+      {
+        id: 6,
+        front: "Ἕλλην, ὁ",
+        back: ["Greek"]
+      },
+      {
+        id: 7,
+        front: "ἔμπειρος ον",
+        back: ["skilled, experienced"]
+      },
+      {
+        id: 8,
+        front: "ἤ",
+        back: ["or"]
+      },
+      {
+        id: 9,
+        front: "μῶρος ᾱ ον",
+        back: ["stupid, foolish"]
+      },
+      {
+        id: 10,
+        front: "ναί",
+        back: ["yes"]
+      },
+      {
+        id: 11,
+        front: "ναῦς, ἡ",
+        back: ["ship"]
+      },
+      {
+        id: 12,
+        front: "οἶδα",
+        back: ["know"]
+      },
+      {
+        id: 13,
+        front: "ὅτι",
+        back: ["that"]
+      },
+      {
+        id: 14,
+        front: "παίζω (πρός + acc.)",
+        back: ["play; joke (at)"]
+      },
+      {
+        id: 15,
+        front: "περί",
+        back: ["(+ acc) about"]
+      },
+      {
+        id: 16,
+        front: "πολλά",
+        back: ["many things"]
+      },
+      {
+        id: 17,
+        front: "πῶς γάρ οὔ;",
+        back: ["of course"]
+      },
+      {
+        id: 18,
+        front: "στρατηγός, ὁ",
+        back: ["general (2a)"]
+      },
+      {
+        id: 19,
+        front: "τά ναυτικά",
+        back: ["naval matters"]
+      },
+      {
+        id: 20,
+        front: "τά στρατηγικά",
+        back: ["leadership, generalship"]
+      },
+      {
+        id: 21,
+        front: "τά στρατιωτικά",
+        back: ["military matters"]
+      }
+    ]
   }
 ];
 
