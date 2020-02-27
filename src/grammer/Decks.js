@@ -998,6 +998,86 @@ const decks = [
         back: ["how"]
       }
     ]
+  },
+  {
+    id: 20,
+    name: "1Ε-F",
+    category: {
+      id: 4,
+      name: "Text Vocab"
+    },
+    cards: [
+      {
+        id: 1,
+        front: "ἀκρῑβῶς",
+        back: ["accurately, closely"]
+      },
+      {
+        id: 2,
+        front: "βαθέως",
+        back: ["deeply"]
+      },
+      {
+        id: 3,
+        front: "βοηθέω",
+        back: ["help, run to help"]
+      },
+      {
+        id: 4,
+        front: "δηλόω",
+        back: ["show, reveal"]
+      },
+      {
+        id: 5,
+        front: "κακῶς",
+        back: ["badly, evilly"]
+      },
+      {
+        id: 6,
+        front: "καλῶς",
+        back: ["finely, beautifully"]
+      },
+      {
+        id: 7,
+        front: "μέν... δέ...",
+        back: ["on the one hand... on the other"]
+      },
+      {
+        id: 8,
+        front: "οἴμοι",
+        back: ["oh dear! alas!"]
+      },
+      {
+        id: 9,
+        front: "ὁράω",
+        back: ["see"]
+      },
+      {
+        id: 10,
+        front: "ποῖ;",
+        back: ["to where?"]
+      },
+      {
+        id: 11,
+        front: "ποιέω",
+        back: ["make, do"]
+      },
+      {
+        id: 12,
+        front: "ποῦ;",
+        back: ["where (at)"]
+      },
+      {
+        id: 13,
+        front: "σαφῶς",
+        back: ["clearly"]
+      },
+      {
+        id: 14,
+        front: "σεαυτόν",
+        back: ["yourself (s)"]
+      }
+    ]
   }
 ];
 
