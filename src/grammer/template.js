@@ -1,4 +1,4 @@
-const newDeck = {
+const keyWordTemplate = {
   id: 27,
   name: "Unit #3",
   category: {
@@ -109,4 +109,55 @@ const newDeck = {
   ],
 };
 
-export default newDeck;
+const nounTableTemplate = {
+  id: 27,
+  name: "3rd Declension A(1)",
+  category: {
+    id: 3,
+    name: "Nouns",
+  },
+  cards: [
+    {
+      id: 1,
+      front: "",
+      back: [""],
+    },
+    {
+      id: 2,
+      front: "",
+      back: [""],
+    },
+    {
+      id: 3,
+      front: "",
+      back: [""],
+    },
+    {
+      id: 4,
+      front: "",
+      back: [""],
+    },
+    {
+      id: 5,
+      front: "",
+      back: [""],
+    },
+    {
+      id: 6,
+      front: "",
+      back: [""],
+    },
+    {
+      id: 7,
+      front: "",
+      back: [""],
+    },
+    {
+      id: 8,
+      front: "",
+      back: [""],
+    },
+  ],
+};
+
+export { nounTableTemplate, keyWordTemplate };
