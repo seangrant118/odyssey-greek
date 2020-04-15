@@ -1914,6 +1914,56 @@ const decks = [
       },
     ],
   },
+  {
+    id: 27,
+    name: "3rd Declension A(1)",
+    category: {
+      id: 3,
+      name: "Nouns",
+    },
+    cards: [
+      {
+        id: 1,
+        front: "λιμήν",
+        back: ["Nominative", "(s.)"],
+      },
+      {
+        id: 2,
+        front: "λιμἐν-α",
+        back: ["Accusative", "(s.)"],
+      },
+      {
+        id: 3,
+        front: "λιμἐν-ος",
+        back: ["Genitive", "(s.)"],
+      },
+      {
+        id: 4,
+        front: "λιμἐν-ι",
+        back: ["Dative", "(s.)"],
+      },
+      {
+        id: 5,
+        front: "λιμἐν-ες",
+        back: ["Nominative", "(pl.)"],
+      },
+      {
+        id: 6,
+        front: "λιμἐν-ας",
+        back: ["Accusative", "(pl.)"],
+      },
+      {
+        id: 7,
+        front: "λιμἐν-ων",
+        back: ["Genitive", "(pl.)"],
+      },
+      {
+        id: 8,
+        front: "λιμέσι(ν)",
+        back: ["Dative", "(pl.)"],
+      },
+    ],
+  },
 ];
 
 export default decks;

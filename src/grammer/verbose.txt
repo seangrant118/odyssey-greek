@@ -1,5 +1,23 @@
 
+
+
+
+
+
+
+
+
+νύξ
+νύκτ-α
+νυκτ-ός
+νυκτ-ί
+νύκτ-ες
+νύκτ-ας
+νυκτ-ῶν
+νυξί(ν)
+
 General id 1
 verbs id 2
 nouns id 3
 vocab id 4
+Key words id 5
