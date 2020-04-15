@@ -1569,6 +1569,131 @@ const decks = [
       },
     ],
   },
+  {
+    id: 24,
+    name: "3A-B",
+    category: {
+      id: 4,
+      name: "Text Vocab",
+    },
+    cards: [
+      {
+        id: 1,
+        front: "ἄγε",
+        back: ["Come!"],
+      },
+      {
+        id: 2,
+        front: "ἀφικνέομαι",
+        back: ["arrive, come"],
+      },
+      {
+        id: 3,
+        front: "ἐρωτάω",
+        back: ["ask"],
+      },
+      {
+        id: 4,
+        front: "ἰδού",
+        back: ["Look! Here! Hey!"],
+      },
+      {
+        id: 5,
+        front: "κίνδυνος, ὁ",
+        back: ["Danger", "(2a)"],
+      },
+      {
+        id: 6,
+        front: "νῆσος, ἡ",
+        back: ["island", "(2a)"],
+      },
+      {
+        id: 7,
+        front: "πόθεν;",
+        back: ["from where?"],
+      },
+      {
+        id: 8,
+        front: "πυρά, τα",
+        back: ["fire-signals", "(2b)"],
+      },
+      {
+        id: 9,
+        front: "σπεύδω",
+        back: ["hurry"],
+      },
+      {
+        id: 10,
+        front: "χωρέω",
+        back: ["Go, come"],
+      },
+      {
+        id: 11,
+        front: "δεινός",
+        back: ["terrible, dire, clever"],
+      },
+      {
+        id: 12,
+        front: "ἐγώ",
+        back: ["I/1"],
+      },
+      {
+        id: 13,
+        front: "εὖ",
+        back: ["well"],
+      },
+      {
+        id: 14,
+        front: "ἡμεῖς",
+        back: ["we"],
+      },
+      {
+        id: 15,
+        front: "θεάομαι",
+        back: ["Watch, gaze at"],
+      },
+      {
+        id: 16,
+        front: "θόρυβος, ὁ",
+        back: ["noise, din, hustle and bustle", "(2a)"],
+      },
+      {
+        id: 17,
+        front: "οἰκία, ἡ",
+        back: ["House", "(1b)"],
+      },
+      {
+        id: 18,
+        front: "οἴκαδε",
+        back: ["homewards"],
+      },
+      {
+        id: 19,
+        front: "ὅπλα, τα",
+        back: ["weapons, arms", "(2b)"],
+      },
+      {
+        id: 20,
+        front: "πορεύομαι",
+        back: ["march, journey, go"],
+      },
+      {
+        id: 21,
+        front: "σύ",
+        back: ["You (s.)"],
+      },
+      {
+        id: 22,
+        front: "ὑμεις",
+        back: ["You (pl.)"],
+      },
+      {
+        id: 23,
+        front: "φαίνομαι",
+        back: ["appear, seem"],
+      },
+    ],
+  },
 ];
 
 export default decks;
