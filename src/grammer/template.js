@@ -110,8 +110,8 @@ const keyWordTemplate = {
 };
 
 const nounTableTemplate = {
-  id: 27,
-  name: "3rd Declension A(1)",
+  id: 28,
+  name: "3rd Declension A(2)",
   category: {
     id: 3,
     name: "Nouns",
@@ -119,42 +119,42 @@ const nounTableTemplate = {
   cards: [
     {
       id: 1,
-      front: "λιμήν",
+      front: "νύξ",
       back: ["Nominative", "(s.)"],
     },
     {
       id: 2,
-      front: "λιμἐν-α",
+      front: "νύκτ-α",
       back: ["Accusative", "(s.)"],
     },
     {
       id: 3,
-      front: "λιμἐν-ος",
+      front: "νυκτ-ός",
       back: ["Genitive", "(s.)"],
     },
     {
       id: 4,
-      front: "λιμἐν-ι",
+      front: "νυκτ-ί",
       back: ["Dative", "(s.)"],
     },
     {
       id: 5,
-      front: "λιμἐν-ες",
+      front: "νύκτ-ες",
       back: ["Nominative", "(pl.)"],
     },
     {
       id: 6,
-      front: "λιμἐν-ας",
+      front: "νύκτ-ας",
       back: ["Accusative", "(pl.)"],
     },
     {
       id: 7,
-      front: "λιμἐν-ων",
+      front: "νυκτ-ῶν",
       back: ["Genitive", "(pl.)"],
     },
     {
       id: 8,
-      front: "λιμέσι(ν)",
+      front: "νυξί(ν)",
       back: ["Dative", "(pl.)"],
     },
   ],
