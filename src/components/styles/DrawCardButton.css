@@ -30,3 +30,9 @@
   top: 3px;
   background: rgb(145, 163, 235);
 }
+
+@media (max-width: 480px) {
+  .button {
+    font-size: 1.25em;
+  }
+}
