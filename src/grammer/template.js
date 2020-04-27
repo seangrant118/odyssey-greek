@@ -1,9 +1,9 @@
 const keyWordTemplate = {
-  id: 30,
-  name: "Unit #4",
+  id: 31,
+  name: "3A-C",
   category: {
-    id: 5,
-    name: "Key Words",
+    id: 4,
+    name: "Text Vocab",
   },
   cards: [
     {
