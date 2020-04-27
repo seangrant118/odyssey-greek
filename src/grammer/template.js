@@ -73,6 +73,56 @@ const keyWordTemplate = {
     },
     {
       id: 14,
+      front: "βοάω",
+      back: ["Shout (for)"],
+    },
+    {
+      id: 15,
+      front: "ἔτι",
+      back: ["still, yet"],
+    },
+    {
+      id: 16,
+      front: "ζητέω",
+      back: ["look for, seek"],
+    },
+    {
+      id: 17,
+      front: "θύρᾱ, ἡ",
+      back: ["door (1b)"],
+    },
+    {
+      id: 18,
+      front: "καθεύδω",
+      back: ["sleep"],
+    },
+    {
+      id: 19,
+      front: "καλέω",
+      back: ["call, summon"],
+    },
+    {
+      id: 20,
+      front: "κελευστής, ὁ",
+      back: ["boatswain (1d)"],
+    },
+    {
+      id: 21,
+      front: "οἴκοι",
+      back: ["at home"],
+    },
+    {
+      id: 22,
+      front: "τρέχω (δραμ-)",
+      back: ["run"],
+    },
+    {
+      id: 23,
+      front: "τριήραρχος, ὁ",
+      back: ["trierarch (2a)"],
+    },
+    {
+      id: 24,
       front: "",
       back: [""],
     },
