@@ -123,8 +123,56 @@ const keyWordTemplate = {
     },
     {
       id: 24,
-      front: "",
-      back: [""],
+      front: "δή",
+      back: ["then, indeed"],
+    },
+
+    {
+      id: 25,
+      front: "ἐμβαίνω (ἐμβα-)",
+      back: ["embark"],
+    },
+
+    {
+      id: 26,
+      front: "εὐχή, ἡ",
+      back: ["prayer (1a)"],
+    },
+
+    {
+      id: 27,
+      front: "εὔχομαι",
+      back: ["pray"],
+    },
+
+    {
+      id: 28,
+      front: "θυσίᾱ, ἡ",
+      back: ["a sacrifice (1b)"],
+    },
+
+    {
+      id: 29,
+      front: "θύω",
+      back: ["sacrifice"],
+    },
+
+    {
+      id: 30,
+      front: "κελεύω",
+      back: ["order"],
+    },
+
+    {
+      id: 31,
+      front: "σπένδω",
+      back: ["pour a libation"],
+    },
+
+    {
+      id: 32,
+      front: "σπονδή, ἡ",
+      back: ["a libation (1a)"],
     },
   ],
 };
