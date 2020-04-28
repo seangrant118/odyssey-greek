@@ -1,6 +1,6 @@
 const keyWordTemplate = {
   id: 32,
-  name: "4A-D",
+  name: "4A-C",
   category: {
     id: 4,
     name: "Text Vocab",
@@ -118,8 +118,48 @@ const keyWordTemplate = {
     },
     {
       id: 23,
-      front: "",
-      back: [""],
+      front: "ἀνομία, ἡ",
+      back: ["lawlessness (1B)"],
+    },
+    {
+      id: 24,
+      front: "ἀπάγω (ἀπαγαγ-)",
+      back: ["lead/take away"],
+    },
+    {
+      id: 25,
+      front: "ἀποφεύγω (ἀποφυγ-)",
+      back: ["escape, run off"],
+    },
+    {
+      id: 26,
+      front: "δοῦλος, ὁ",
+      back: ["slave (2a)"],
+    },
+    {
+      id: 27,
+      front: "ἰερόν, τό",
+      back: ["sanctuary (2b)"],
+    },
+    {
+      id: 28,
+      front: "ἰκέτης, ὀ",
+      back: ["suppliant (1d)"],
+    },
+    {
+      id: 29,
+      front: "μά (+acc)",
+      back: ["by...!"],
+    },
+    {
+      id: 30,
+      front: "ζένος, ζεῖωος, ὁ",
+      back: ["foreigner, guest, host (2a)"],
+    },
+    {
+      id: 31,
+      front: "ὁρθός ή όν",
+      back: ["straight, correct, right"],
     },
   ],
 };
