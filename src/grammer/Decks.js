@@ -2412,6 +2412,171 @@ const decks = [
       },
     ],
   },
+  {
+    id: 32,
+    name: "4A-C",
+    category: {
+      id: 4,
+      name: "Text Vocab",
+    },
+    cards: [
+      {
+        id: 1,
+        front: "γεωργός ὁ",
+        back: ["farmer (2a)"],
+      },
+      {
+        id: 2,
+        front: "γυνή (γυναικ-) ἡ",
+        back: ["woman, wife (3a)"],
+      },
+      {
+        id: 3,
+        front: "δαίμων ὁ",
+        back: ["god, demon, daimon, (3a)"],
+      },
+      {
+        id: 4,
+        front: "ἔτι καί νῦν",
+        back: ["even now, still now"],
+      },
+      {
+        id: 5,
+        front: "κρατέω",
+        back: ["hold sway, power over"],
+      },
+      {
+        id: 6,
+        front: "νή (+acc)",
+        back: ["by...!"],
+      },
+      {
+        id: 7,
+        front: "ὀλιγος η ον",
+        back: ["small, few"],
+      },
+      {
+        id: 8,
+        front: "ἀτιμάζω",
+        back: ["dishonor, hold in dishonor"],
+      },
+      {
+        id: 9,
+        front: "δεσπότης, ὁ",
+        back: ["master (1d)"],
+      },
+      {
+        id: 10,
+        front: "διαφθείρω (διαφθειρα)",
+        back: ["destroy, kill"],
+      },
+      {
+        id: 11,
+        front: "θεός, ὁ/ἡ",
+        back: ["god, goddess (2a)"],
+      },
+      {
+        id: 12,
+        front: "θνητός ή όν",
+        back: ["mortal"],
+      },
+      {
+        id: 13,
+        front: "κωλύω",
+        back: ["prevent, stop"],
+      },
+      {
+        id: 14,
+        front: "μάλιστα",
+        back: ["especially, particularly, yes"],
+      },
+      {
+        id: 15,
+        front: "νεκρός, ὁ",
+        back: ["corpse (2a)"],
+      },
+      {
+        id: 16,
+        front: "νόμος, ὁ",
+        back: ["law, convention (2a)"],
+      },
+      {
+        id: 17,
+        front: "νόσος, ἡ",
+        back: ["plauge disease (2a)"],
+      },
+      {
+        id: 18,
+        front: "πυρά, ἡ",
+        back: ["funeral pyre (1b)"],
+      },
+      {
+        id: 19,
+        front: "τιμάω",
+        back: ["honour"],
+      },
+      {
+        id: 20,
+        front: "τύπτω",
+        back: ["strike, hit"],
+      },
+      {
+        id: 21,
+        front: "φέρω (ἐνεγκ-)",
+        back: ["carry, bear"],
+      },
+      {
+        id: 22,
+        front: "φόβος, ὁ",
+        back: ["fear (2a)"],
+      },
+      {
+        id: 23,
+        front: "ἀνομία, ἡ",
+        back: ["lawlessness (1B)"],
+      },
+      {
+        id: 24,
+        front: "ἀπάγω (ἀπαγαγ-)",
+        back: ["lead/take away"],
+      },
+      {
+        id: 25,
+        front: "ἀποφεύγω (ἀποφυγ-)",
+        back: ["escape, run off"],
+      },
+      {
+        id: 26,
+        front: "δοῦλος, ὁ",
+        back: ["slave (2a)"],
+      },
+      {
+        id: 27,
+        front: "ἰερόν, τό",
+        back: ["sanctuary (2b)"],
+      },
+      {
+        id: 28,
+        front: "ἰκέτης, ὀ",
+        back: ["suppliant (1d)"],
+      },
+      {
+        id: 29,
+        front: "μά (+acc)",
+        back: ["by...!"],
+      },
+      {
+        id: 30,
+        front: "ζένος, ζεῖωος, ὁ",
+        back: ["foreigner, guest, host (2a)"],
+      },
+      {
+        id: 31,
+        front: "ὁρθός ή όν",
+        back: ["straight, correct, right"],
+      },
+    ],
+  },
 ];
 
 export default decks;
