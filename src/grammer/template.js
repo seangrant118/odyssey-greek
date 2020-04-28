@@ -43,6 +43,81 @@ const keyWordTemplate = {
     },
     {
       id: 8,
+      front: "ἀτιμάζω",
+      back: ["dishonor, hold in dishonor"],
+    },
+    {
+      id: 9,
+      front: "δεσπότης, ὁ",
+      back: ["master (1d)"],
+    },
+    {
+      id: 10,
+      front: "διαφθείρω (διαφθειρα)",
+      back: ["destroy, kill"],
+    },
+    {
+      id: 11,
+      front: "θεός, ὁ/ἡ",
+      back: ["god, goddess (2a)"],
+    },
+    {
+      id: 12,
+      front: "θνητός ή όν",
+      back: ["mortal"],
+    },
+    {
+      id: 13,
+      front: "κωλύω",
+      back: ["prevent, stop"],
+    },
+    {
+      id: 14,
+      front: "μάλιστα",
+      back: ["especially, particularly, yes"],
+    },
+    {
+      id: 15,
+      front: "νεκρός, ὁ",
+      back: ["corpse (2a)"],
+    },
+    {
+      id: 16,
+      front: "νόμος, ὁ",
+      back: ["law, convention (2a)"],
+    },
+    {
+      id: 17,
+      front: "νόσος, ἡ",
+      back: ["plauge disease (2a)"],
+    },
+    {
+      id: 18,
+      front: "πυρά, ἡ",
+      back: ["funeral pyre (1b)"],
+    },
+    {
+      id: 19,
+      front: "τιμάω",
+      back: ["honour"],
+    },
+    {
+      id: 20,
+      front: "τύπτω",
+      back: ["strike, hit"],
+    },
+    {
+      id: 21,
+      front: "φέρω (ἐνεγκ-)",
+      back: ["carry, bear"],
+    },
+    {
+      id: 22,
+      front: "φόβος, ὁ",
+      back: ["fear (2a)"],
+    },
+    {
+      id: 23,
       front: "",
       back: [""],
     },
