@@ -8,6 +8,41 @@ const keyWordTemplate = {
   cards: [
     {
       id: 1,
+      front: "γεωργός ὁ",
+      back: ["farmer (2a)"],
+    },
+    {
+      id: 2,
+      front: "γυνή (γυναικ-) ἡ",
+      back: ["woman, wife (3a)"],
+    },
+    {
+      id: 3,
+      front: "δαίμων ὁ",
+      back: ["god, demon, daimon, (3a)"],
+    },
+    {
+      id: 4,
+      front: "ἔτι καί νῦν",
+      back: ["even now, still now"],
+    },
+    {
+      id: 5,
+      front: "κρατέω",
+      back: ["hold sway, power over"],
+    },
+    {
+      id: 6,
+      front: "νή (+acc)",
+      back: ["by...!"],
+    },
+    {
+      id: 7,
+      front: "ὀλιγος η ον",
+      back: ["small, few"],
+    },
+    {
+      id: 8,
       front: "",
       back: [""],
     },
