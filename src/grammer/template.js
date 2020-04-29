@@ -161,6 +161,8 @@ const keyWordTemplate = {
       front: "ὁρθός ή όν",
       back: ["straight, correct, right"],
     },
+
+    //
   ],
 };
 
