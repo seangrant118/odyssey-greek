@@ -2414,7 +2414,7 @@ const decks = [
   },
   {
     id: 32,
-    name: "4A-D",
+    name: "4A-E",
     category: {
       id: 4,
       name: "Text Vocab",
@@ -2624,6 +2624,51 @@ const decks = [
         id: 41,
         front: "τριήραρχος, ὁ",
         back: ["trierarch", "(2a)"],
+      },
+      {
+        id: 42,
+        front: "δή",
+        back: ["then, indeed"],
+      },
+      {
+        id: 43,
+        front: "ἐμβαίνω (ἐμβα-)",
+        back: ["embark"],
+      },
+      {
+        id: 44,
+        front: "εὐχή, ἡ",
+        back: ["prayer", "(1a)"],
+      },
+      {
+        id: 45,
+        front: "εὔχομαι",
+        back: ["pray"],
+      },
+      {
+        id: 46,
+        front: "θυσίᾱ, ἡ",
+        back: ["a sacrifice", "(1b)"],
+      },
+      {
+        id: 47,
+        front: "θύω",
+        back: ["sacrifice"],
+      },
+      {
+        id: 48,
+        front: "κελεύω",
+        back: ["order"],
+      },
+      {
+        id: 49,
+        front: "σπένδω",
+        back: ["pour a libation"],
+      },
+      {
+        id: 50,
+        front: "σπονδή, ἡ",
+        back: ["a libation", "(1a)"],
       },
     ],
   },
