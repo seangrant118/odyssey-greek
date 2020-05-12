@@ -2414,7 +2414,7 @@ const decks = [
   },
   {
     id: 32,
-    name: "4A-C",
+    name: "4A-D",
     category: {
       id: 4,
       name: "Text Vocab",
@@ -2574,6 +2574,56 @@ const decks = [
         id: 31,
         front: "ὁρθός ή όν",
         back: ["straight, correct, right"],
+      },
+      {
+        id: 32,
+        front: "βοάω",
+        back: ["shout for"],
+      },
+      {
+        id: 33,
+        front: "ἔτι",
+        back: ["still, yet"],
+      },
+      {
+        id: 34,
+        front: "ζητέω",
+        back: ["look for, seek"],
+      },
+      {
+        id: 35,
+        front: "θύρᾱ, ἡ",
+        back: ["door", "(1b)"],
+      },
+      {
+        id: 36,
+        front: "καθεύδω",
+        back: ["sleep"],
+      },
+      {
+        id: 37,
+        front: "καλεώ",
+        back: ["call, summon"],
+      },
+      {
+        id: 38,
+        front: "κελευστής, ὁ",
+        back: ["boatswain", "(1d)"],
+      },
+      {
+        id: 39,
+        front: "οἴκοι",
+        back: ["at home"],
+      },
+      {
+        id: 40,
+        front: "τρέχω (δραμ-)",
+        back: ["run"],
+      },
+      {
+        id: 41,
+        front: "τριήραρχος, ὁ",
+        back: ["trierarch", "(2a)"],
       },
     ],
   },

@@ -103,7 +103,7 @@ const keyWordTemplate2 = {
   },
   cards: [
     {
-      id: 1,
+      id: 31,
       front: "ἔρχομαι",
       back: ["to come, go"],
     },
@@ -255,5 +255,58 @@ const nounTableTemplate = {
     },
   ],
 };
+
+const newtemplate = [
+  {
+    id: 21,
+    front: "βοάω",
+    back: ["shout for"],
+  },
+  {
+    id: 22,
+    front: "ἔτι",
+    back: ["still, yet"],
+  },
+  {
+    id: 23,
+    front: "ζητέω",
+    back: ["look for, seek"],
+  },
+  {
+    id: 24,
+    front: "θύρᾱ, ἡ",
+    back: ["door", "(1b)"],
+  },
+  {
+    id: 25,
+    front: "καθεύδω",
+    back: ["sleep"],
+  },
+  {
+    id: 26,
+    front: "καλεώ",
+    back: ["call, summon"],
+  },
+  {
+    id: 27,
+    front: "κελευστής, ὁ",
+    back: ["boatswain", "(1d)"],
+  },
+  {
+    id: 28,
+    front: "οἴκοι",
+    back: ["at home"],
+  },
+  {
+    id: 29,
+    front: "τρέχω (δραμ-)",
+    back: ["run"],
+  },
+  {
+    id: 30,
+    front: "τριήραρχος, ὁ",
+    back: ["trierarch", "(2a)"],
+  },
+];
 
 export { nounTableTemplate, keyWordTemplate };
