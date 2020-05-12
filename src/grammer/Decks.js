@@ -2972,6 +2972,101 @@ const decks = [
       },
     ],
   },
+  {
+    id: 37,
+    name: "Big, Great",
+    category: {
+      id: 1,
+      name: "General",
+    },
+    cards: [
+      {
+        id: 1,
+        front: "μέγας",
+        back: ["Nominative", "M", "(s.)"],
+      },
+      {
+        id: 2,
+        front: "μέγαν",
+        back: ["Accusative", "M", "(s.)"],
+      },
+      {
+        id: 3,
+        front: "μεγάλ-ου",
+        back: ["Genitive", "M or N", "(s.)"],
+      },
+      {
+        id: 4,
+        front: "μεγάλ-ῳ",
+        back: ["Dative", "M or N", "(s.)"],
+      },
+      {
+        id: 5,
+        front: "μεγάλ-η",
+        back: ["Nominative", "F", "(s.)"],
+      },
+      {
+        id: 6,
+        front: "μεγάλ-ην",
+        back: ["Accusative", "F", "(s.)"],
+      },
+      {
+        id: 7,
+        front: "μεγάλ-ης",
+        back: ["Genitive", "F", "(s.)"],
+      },
+      {
+        id: 8,
+        front: "μεγάλ-ῃ",
+        back: ["Dative", "F", "(s.)"],
+      },
+      {
+        id: 9,
+        front: "μέγα",
+        back: ["Nominative or Accusative", "N", "(s.)"],
+      },
+      {
+        id: 10,
+        front: "μεγάλ-οι",
+        back: ["Nominative", "M", "(pl.)"],
+      },
+      {
+        id: 11,
+        front: "μεγάλ-ους",
+        back: ["Accusative", "M", "(pl.)"],
+      },
+      {
+        id: 12,
+        front: "μεγάλ-ων",
+        back: ["Genative", "M or F or N", "(pl.)"],
+      },
+      {
+        id: 13,
+        front: "μεγάλ-οις",
+        back: ["Dative", "M or N", "(pl.)"],
+      },
+      {
+        id: 14,
+        front: "μεγάλ-αι",
+        back: ["Nominatve", "F", "(pl.)"],
+      },
+      {
+        id: 15,
+        front: "μεγάλ-ας",
+        back: ["Accusative", "F", "(pl.)"],
+      },
+      {
+        id: 16,
+        front: "μεγάλ-αις",
+        back: ["Dative", "F", "(pl.)"],
+      },
+      {
+        id: 17,
+        front: "μεγάλ-α",
+        back: ["Nominative or Accusative", "N", "(pl.)"],
+      },
+    ],
+  },
 ];
 
 export default decks;

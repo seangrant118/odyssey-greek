@@ -1,6 +1,6 @@
 const keyWordTemplate = {
-  id: 36,
-  name: "Many, Much",
+  id: 37,
+  name: "Big, Great",
   category: {
     id: 1,
     name: "General",
@@ -8,87 +8,87 @@ const keyWordTemplate = {
   cards: [
     {
       id: 1,
-      front: "πολύς",
+      front: "μέγας",
       back: ["Nominative", "M", "(s.)"],
     },
     {
       id: 2,
-      front: "πολύν",
+      front: "μέγαν",
       back: ["Accusative", "M", "(s.)"],
     },
     {
       id: 3,
-      front: "πολλ-οῦ",
+      front: "μεγάλ-ου",
       back: ["Genitive", "M or N", "(s.)"],
     },
     {
       id: 4,
-      front: "πολλ-ῷ",
+      front: "μεγάλ-ῳ",
       back: ["Dative", "M or N", "(s.)"],
     },
     {
       id: 5,
-      front: "πολλ-ή",
+      front: "μεγάλ-η",
       back: ["Nominative", "F", "(s.)"],
     },
     {
       id: 6,
-      front: "πολλ-ήν",
+      front: "μεγάλ-ην",
       back: ["Accusative", "F", "(s.)"],
     },
     {
       id: 7,
-      front: "πολλ-ῆς",
+      front: "μεγάλ-ης",
       back: ["Genitive", "F", "(s.)"],
     },
     {
       id: 8,
-      front: "πολλ-ῇ",
+      front: "μεγάλ-ῃ",
       back: ["Dative", "F", "(s.)"],
     },
     {
       id: 9,
-      front: "πολύ",
+      front: "μέγα",
       back: ["Nominative or Accusative", "N", "(s.)"],
     },
     {
       id: 10,
-      front: "πολλ-οί",
+      front: "μεγάλ-οι",
       back: ["Nominative", "M", "(pl.)"],
     },
     {
       id: 11,
-      front: "πολλ-ούς",
+      front: "μεγάλ-ους",
       back: ["Accusative", "M", "(pl.)"],
     },
     {
       id: 12,
-      front: "πολλ-ῶν",
+      front: "μεγάλ-ων",
       back: ["Genative", "M or F or N", "(pl.)"],
     },
     {
       id: 13,
-      front: "πολλ-οῖς",
+      front: "μεγάλ-οις",
       back: ["Dative", "M or N", "(pl.)"],
     },
     {
       id: 14,
-      front: "πολλ-αί",
+      front: "μεγάλ-αι",
       back: ["Nominatve", "F", "(pl.)"],
     },
     {
       id: 15,
-      front: "πολλ-άς",
+      front: "μεγάλ-ας",
       back: ["Accusative", "F", "(pl.)"],
     },
     {
       id: 16,
-      front: "πολλ-αις",
+      front: "μεγάλ-αις",
       back: ["Dative", "F", "(pl.)"],
     },
     {
       id: 17,
-      front: "πολλ-ά",
+      front: "μεγάλ-α",
       back: ["Nominative or Accusative", "N", "(pl.)"],
     },
   ],
