@@ -2782,6 +2782,101 @@ const decks = [
       },
     ],
   },
+  {
+    id: 35,
+    name: "That",
+    category: {
+      id: 1,
+      name: "General",
+    },
+    cards: [
+      {
+        id: 1,
+        front: "ἐκεῖν-ος",
+        back: ["Nominative", "M", "(s.)"],
+      },
+      {
+        id: 2,
+        front: "ἐκεῖν-ον",
+        back: ["Accusative", "M", "(s.)"],
+      },
+      {
+        id: 3,
+        front: "ἐκείν-ου",
+        back: ["Genitive", "M or N", "(s.)"],
+      },
+      {
+        id: 4,
+        front: "ἐκείν-ῳ",
+        back: ["Dative", "M or N", "(s.)"],
+      },
+      {
+        id: 5,
+        front: "ἐκείν-η",
+        back: ["Nominative", "F", "(s.)"],
+      },
+      {
+        id: 6,
+        front: "ἐκείν-ην",
+        back: ["Accusative", "F", "(s.)"],
+      },
+      {
+        id: 7,
+        front: "ἐκείν-ης",
+        back: ["Genitive", "F", "(s.)"],
+      },
+      {
+        id: 8,
+        front: "ἐκείν-ῃ",
+        back: ["Dative", "F", "(s.)"],
+      },
+      {
+        id: 9,
+        front: "ἐκεῖν-ο",
+        back: ["Nominative or Accusative", "N", "(s.)"],
+      },
+      {
+        id: 10,
+        front: "ἐκεῖν-οι",
+        back: ["Nominative", "M", "(pl.)"],
+      },
+      {
+        id: 11,
+        front: "ἐκείν-ους",
+        back: ["Accusative", "M", "(pl.)"],
+      },
+      {
+        id: 12,
+        front: "ἐκείν-ων",
+        back: ["Genative", "M or F or N", "(pl.)"],
+      },
+      {
+        id: 13,
+        front: "ἐκείν-οις",
+        back: ["Dative", "M or N", "(pl.)"],
+      },
+      {
+        id: 14,
+        front: "ἐκεῖν-αι",
+        back: ["Nominatve", "F", "(pl.)"],
+      },
+      {
+        id: 15,
+        front: "ἐκείν-ᾱς",
+        back: ["Accusative", "F", "(pl.)"],
+      },
+      {
+        id: 16,
+        front: "ἐκείν-αις",
+        back: ["Dative", "F", "(pl.)"],
+      },
+      {
+        id: 17,
+        front: "ἐκεῖν-α",
+        back: ["Nominative or Accusative", "N", "(pl.)"],
+      },
+    ],
+  },
 ];
 
 export default decks;
