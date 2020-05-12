@@ -2877,6 +2877,101 @@ const decks = [
       },
     ],
   },
+  {
+    id: 36,
+    name: "Many, Much",
+    category: {
+      id: 1,
+      name: "General",
+    },
+    cards: [
+      {
+        id: 1,
+        front: "πολύς",
+        back: ["Nominative", "M", "(s.)"],
+      },
+      {
+        id: 2,
+        front: "πολύν",
+        back: ["Accusative", "M", "(s.)"],
+      },
+      {
+        id: 3,
+        front: "πολλ-οῦ",
+        back: ["Genitive", "M or N", "(s.)"],
+      },
+      {
+        id: 4,
+        front: "πολλ-ῷ",
+        back: ["Dative", "M or N", "(s.)"],
+      },
+      {
+        id: 5,
+        front: "πολλ-ή",
+        back: ["Nominative", "F", "(s.)"],
+      },
+      {
+        id: 6,
+        front: "πολλ-ήν",
+        back: ["Accusative", "F", "(s.)"],
+      },
+      {
+        id: 7,
+        front: "πολλ-ῆς",
+        back: ["Genitive", "F", "(s.)"],
+      },
+      {
+        id: 8,
+        front: "πολλ-ῇ",
+        back: ["Dative", "F", "(s.)"],
+      },
+      {
+        id: 9,
+        front: "πολύ",
+        back: ["Nominative or Accusative", "N", "(s.)"],
+      },
+      {
+        id: 10,
+        front: "πολλ-οί",
+        back: ["Nominative", "M", "(pl.)"],
+      },
+      {
+        id: 11,
+        front: "πολλ-ούς",
+        back: ["Accusative", "M", "(pl.)"],
+      },
+      {
+        id: 12,
+        front: "πολλ-ῶν",
+        back: ["Genative", "M or F or N", "(pl.)"],
+      },
+      {
+        id: 13,
+        front: "πολλ-οῖς",
+        back: ["Dative", "M or N", "(pl.)"],
+      },
+      {
+        id: 14,
+        front: "πολλ-αί",
+        back: ["Nominatve", "F", "(pl.)"],
+      },
+      {
+        id: 15,
+        front: "πολλ-άς",
+        back: ["Accusative", "F", "(pl.)"],
+      },
+      {
+        id: 16,
+        front: "πολλ-αις",
+        back: ["Dative", "F", "(pl.)"],
+      },
+      {
+        id: 17,
+        front: "πολλ-ά",
+        back: ["Nominative or Accusative", "N", "(pl.)"],
+      },
+    ],
+  },
 ];
 
 export default decks;

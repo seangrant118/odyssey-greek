@@ -1,6 +1,6 @@
 const keyWordTemplate = {
-  id: 34,
-  name: "That",
+  id: 36,
+  name: "Many, Much",
   category: {
     id: 1,
     name: "General",
@@ -8,87 +8,87 @@ const keyWordTemplate = {
   cards: [
     {
       id: 1,
-      front: "ἐκεῖν-ος",
+      front: "πολύς",
       back: ["Nominative", "M", "(s.)"],
     },
     {
       id: 2,
-      front: "ἐκεῖν-ον",
+      front: "πολύν",
       back: ["Accusative", "M", "(s.)"],
     },
     {
       id: 3,
-      front: "ἐκείν-ου",
+      front: "πολλ-οῦ",
       back: ["Genitive", "M or N", "(s.)"],
     },
     {
       id: 4,
-      front: "ἐκείν-ῳ",
+      front: "πολλ-ῷ",
       back: ["Dative", "M or N", "(s.)"],
     },
     {
       id: 5,
-      front: "ἐκείν-η",
+      front: "πολλ-ή",
       back: ["Nominative", "F", "(s.)"],
     },
     {
       id: 6,
-      front: "ἐκείν-ην",
+      front: "πολλ-ήν",
       back: ["Accusative", "F", "(s.)"],
     },
     {
       id: 7,
-      front: "ἐκείν-ης",
+      front: "πολλ-ῆς",
       back: ["Genitive", "F", "(s.)"],
     },
     {
       id: 8,
-      front: "ἐκείν-ῃ",
+      front: "πολλ-ῇ",
       back: ["Dative", "F", "(s.)"],
     },
     {
       id: 9,
-      front: "ἐκεῖν-ο",
+      front: "πολύ",
       back: ["Nominative or Accusative", "N", "(s.)"],
     },
     {
       id: 10,
-      front: "ἐκεῖν-οι",
+      front: "πολλ-οί",
       back: ["Nominative", "M", "(pl.)"],
     },
     {
       id: 11,
-      front: "ἐκείν-ους",
+      front: "πολλ-ούς",
       back: ["Accusative", "M", "(pl.)"],
     },
     {
       id: 12,
-      front: "ἐκείν-ων",
+      front: "πολλ-ῶν",
       back: ["Genative", "M or F or N", "(pl.)"],
     },
     {
       id: 13,
-      front: "ἐκείν-οις",
+      front: "πολλ-οῖς",
       back: ["Dative", "M or N", "(pl.)"],
     },
     {
       id: 14,
-      front: "ἐκεῖν-αι",
+      front: "πολλ-αί",
       back: ["Nominatve", "F", "(pl.)"],
     },
     {
       id: 15,
-      front: "ἐκείν-ᾱς",
+      front: "πολλ-άς",
       back: ["Accusative", "F", "(pl.)"],
     },
     {
       id: 16,
-      front: "ἐκείν-αις",
+      front: "πολλ-αις",
       back: ["Dative", "F", "(pl.)"],
     },
     {
       id: 17,
-      front: "ἐκεῖν-α",
+      front: "πολλ-ά",
       back: ["Nominative or Accusative", "N", "(pl.)"],
     },
   ],
