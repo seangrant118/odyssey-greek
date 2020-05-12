@@ -2687,6 +2687,101 @@ const decks = [
       },
     ],
   },
+  {
+    id: 34,
+    name: "This",
+    category: {
+      id: 1,
+      name: "General",
+    },
+    cards: [
+      {
+        id: 1,
+        front: "οὗτ-ος",
+        back: ["Nominative", "M", "(s.)"],
+      },
+      {
+        id: 2,
+        front: "τοῦτ-ον",
+        back: ["Accusative", "M", "(s.)"],
+      },
+      {
+        id: 3,
+        front: "τούτ-ου",
+        back: ["Genitive", "M or N", "(s.)"],
+      },
+      {
+        id: 4,
+        front: "τούτ-ῳ",
+        back: ["Dative", "M or N", "(s.)"],
+      },
+      {
+        id: 5,
+        front: "αὕτ-η",
+        back: ["Nominative", "F", "(s.)"],
+      },
+      {
+        id: 6,
+        front: "ταύτ-ην",
+        back: ["Accusative", "F", "(s.)"],
+      },
+      {
+        id: 7,
+        front: "ταύτ-ης",
+        back: ["Genitive", "F", "(s.)"],
+      },
+      {
+        id: 8,
+        front: "ταύτ-ῃ",
+        back: ["Dative", "F", "(s.)"],
+      },
+      {
+        id: 9,
+        front: "τοῦτ-ο",
+        back: ["Nominative or Accusative", "N", "(s.)"],
+      },
+      {
+        id: 10,
+        front: "οὗτ-οι",
+        back: ["Nominative", "M", "(pl.)"],
+      },
+      {
+        id: 11,
+        front: "τούτ-ους",
+        back: ["Accusative", "M", "(pl.)"],
+      },
+      {
+        id: 12,
+        front: "τούτ-ων",
+        back: ["Genative", "M or F or N", "(pl.)"],
+      },
+      {
+        id: 13,
+        front: "τούτ-οις",
+        back: ["Dative", "M or N", "(pl.)"],
+      },
+      {
+        id: 14,
+        front: "αὗτ-αι",
+        back: ["Nominatve", "F", "(pl.)"],
+      },
+      {
+        id: 15,
+        front: "ταύτ-ᾱς",
+        back: ["Accusative", "F", "(pl.)"],
+      },
+      {
+        id: 16,
+        front: "ταύτ-αις",
+        back: ["Dative", "F", "(pl.)"],
+      },
+      {
+        id: 17,
+        front: "ταῦτ-α",
+        back: ["Nominative or Accusative", "N", "(pl.)"],
+      },
+    ],
+  },
 ];
 
 export default decks;
