@@ -9,29 +9,29 @@ class Flashcards extends React.Component {
     topic: "Definite Article",
     category: decks[0].category.name,
     selectedDeck: decks[0].cards,
-    currentCard: {}
+    currentCard: {},
   };
   //sets the inital card
   componentDidMount = () => {
     const currentCards = this.state.selectedDeck;
     this.setState(() => ({
-      currentCard: this.getRandomCard(currentCards)
+      currentCard: this.getRandomCard(currentCards),
     }));
   };
   //returns a random card from the current deck
-  getRandomCard = currentCards => {
+  getRandomCard = (currentCards) => {
     const card = currentCards[Math.floor(Math.random() * currentCards.length)];
     return card;
   };
   //changes the topic, changes the deck and generates a new card
-  onTopicChange = e => {
+  onTopicChange = (e) => {
     const topic = e.target.value;
-    decks.map(deck => {
+    decks.map((deck) => {
       if (topic === deck.name) {
         this.setState(() => ({
           topic,
           selectedDeck: deck.cards,
-          currentCard: this.getRandomCard(deck.cards)
+          currentCard: this.getRandomCard(deck.cards),
         }));
       }
       return true;
@@ -41,11 +41,11 @@ class Flashcards extends React.Component {
   updateCard = () => {
     const currentCards = this.state.selectedDeck;
     this.setState(() => ({
-      currentCard: this.getRandomCard(currentCards)
+      currentCard: this.getRandomCard(currentCards),
     }));
   };
   //returns the next card, sequentially, from the deck
-  getNextCard = currentCard => {
+  getNextCard = (currentCard) => {
     const currentCardIndex = currentCard.id;
     const deckLength = this.state.selectedDeck.length;
     if (currentCardIndex < deckLength) {
@@ -60,11 +60,11 @@ class Flashcards extends React.Component {
   updateNextCard = () => {
     const currentCard = this.state.currentCard;
     this.setState(() => ({
-      currentCard: this.getNextCard(currentCard)
+      currentCard: this.getNextCard(currentCard),
     }));
   };
   //returns the previous card from the deck
-  getPrevCard = currentCard => {
+  getPrevCard = (currentCard) => {
     const currentCardIndex = currentCard.id;
     const deckLength = this.state.selectedDeck.length;
     if (currentCardIndex === 1) {
@@ -79,24 +79,24 @@ class Flashcards extends React.Component {
   updatePrevCard = () => {
     const currentCard = this.state.currentCard;
     this.setState(() => ({
-      currentCard: this.getPrevCard(currentCard)
+      currentCard: this.getPrevCard(currentCard),
     }));
   };
   //changes the category of the decks
-  onCategoryChange = e => {
+  onCategoryChange = (e) => {
     const category = e.target.value;
-    const newCard = decks.find(el => el.category.name === category);
-    const syntheticEvent = {
+    const newCard = decks.find((el) => el.category.name === category);
+    const topic = {
       target: {
-        value: newCard.name
-      }
+        value: newCard.name,
+      },
     };
     //changes the state of category
     this.setState(() => ({
-      category
+      category,
     }));
     //changes the state of the topic, selectedDeck and currentCard
-    this.onTopicChange(syntheticEvent);
+    this.onTopicChange(topic);
   };
   render() {
     return (

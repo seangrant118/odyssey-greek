@@ -89,9 +89,6 @@
   display: inline-block;
   margin: auto;
 }
-/* .count-container .count {
-  backface-visibility: hidden;
-} */
 
 @media (max-width: 45rem) {
   .card-container {

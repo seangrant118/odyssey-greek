@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/Card.css";
 
-const Card = props => (
+const Card = (props) => (
   <div className="card-container noSelect">
     <div className="card">
       <div className="front">
@@ -19,12 +19,14 @@ const Card = props => (
       </div>
       <div className="back">
         <div className="definition">
-          {// maps the back: [arr] to the back of the card
-          props.card.back ? (
-            props.card.back.map(item => <div key={item}>{item}</div>)
-          ) : (
-            <p>Select</p>
-          )}
+          {
+            // maps the back to the back of the card
+            props.card.back ? (
+              props.card.back.map((item) => <div key={item}>{item}</div>)
+            ) : (
+              <p>Select</p>
+            )
+          }
         </div>
       </div>
     </div>
